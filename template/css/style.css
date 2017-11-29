@@ -1,14 +1,6 @@
 /**
  * Theme Name:The Project - Responsive Website Template
  *
- * Author:HtmlCoder
- * Author URI:http://www.htmlcoder.me
- * Author e-mail:htmlcoder.me@gmail.com
- * Version: 2.0.5
- * Created:March 2015
- * License URI:http://support.wrapbootstrap.com/
- * File Description:Main CSS file of the template
- *
  * TABLE OF CONTENTS
  * 1) Elements
  * 2) Layout
@@ -7151,6 +7143,15 @@ h6.media-heading {
 
 .clients img {
   margin: 0px auto;
+  opacity: 0.2;
+}
+
+.clients img:hover {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .owl-carousel.clients .owl-item img {
