@@ -410,6 +410,7 @@ header:not(.dark) .dropdown-menu > li.active > a i {
 .navbar-light .navbar-toggler:hover,
 .navbar-light .navbar-toggler:focus {
   border-color: #1f9123;
+  outline: none;
 }
 
 /* Small devices (tablets, phones less than 767px) */
