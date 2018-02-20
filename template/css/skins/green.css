@@ -244,46 +244,6 @@ ul.pagination .page-item.active .page-link,
   background-color: rgba(60, 67, 61, 0.6);
 }
 
-/* Nav pills
----------------------------------- */
-.nav-pills.style-2 > li .nav-link.active,
-.nav-pills.style-2 > li .nav-link.active:hover,
-.nav-pills.style-2 > li .nav-link.active:focus,
-.nav-pills.style-2 > li .nav-link:hover,
-.nav-pills.style-2 > li .nav-link:focus {
-  color: #24a828;
-}
-
-.nav.flex-column > li .nav-link.active,
-.nav.flex-column > li .nav-link.active:hover,
-.nav.flex-column > li .nav-link.active:focus,
-.nav.flex-column > li .nav-link:hover,
-.nav.flex-column > li .nav-link:focus {
-  color: #24a828;
-}
-
-.nav-pills > li .nav-link.active:after {
-  color: #24a828;
-}
-
-.nav.flex-column:not(.list-style-icons) > li .nav-link.active:hover:after,
-.nav.flex-column:not(.list-style-icons) > li .nav-link.active:focus:after,
-.nav.flex-column:not(.list-style-icons) > li .nav-link:hover:after,
-.nav.flex-column:not(.list-style-icons) > li .nav-link:focus:after {
-  color: #1f9123;
-}
-
-.nav.flex-column.list-style-icons > li .nav-link.active > i,
-.nav.flex-column.list-style-icons > li .nav-link:hover > i,
-.nav.flex-column.list-style-icons > li .nav-link:focus > i {
-  color: #1f9123;
-}
-
-.dark .footer-content .nav.flex-column > li > a.active:hover,
-.dark .footer-content .nav.flex-column > li > a:hover {
-  color: #1f9123;
-}
-
 /* Collapse
 ---------------------------------- */
 .collapse-style-2 .card-header a {
@@ -437,49 +397,6 @@ header:not(.dark) .dropdown-menu > li.active > a i {
   .header .navbar-nav .dropdown.show > .dropdown-toggle::after {
     color: #24a828;
   }
-}
-
-/* 6.2 Dark Version
------------------------------------------------------------------------------ */
-/* first level active menu item when opened */
-.dark.header .navbar-nav .show .nav-link,
-.dark.header .navbar-nav .show .nav-link:hover,
-.dark.header .navbar-nav .show .nav-link:focus,
-.dark.header .navbar-nav .dropdown .nav-link:focus {
-  border-bottom-color: #303631;
-}
-
-/* second level menu item */
-.dark.header .dropdown-menu {
-  background-color: #303631;
-}
-
-.dark.header .dropdown-menu .divider {
-  background-color: rgba(60, 67, 61, 0.8);
-}
-
-.dark.header .dropdown-menu > li > a,
-.dark.header .navbar-nav .mega-menu .menu > li > a {
-  border-bottom: 1px solid rgba(60, 67, 61, 0.8);
-}
-
-.dark.header .mega-menu .menu > li > a:hover,
-.dark.header .mega-menu .menu > li > a:focus {
-  border-color: rgba(60, 67, 61, 0.8);
-}
-
-.dark.header .dropdown-menu > li > a:hover,
-.dark.header .dropdown-menu > li > a:focus,
-.dark.header .navbar-nav .show > a,
-.dark.header .navbar-nav .show > a:hover,
-.dark.header .navbar-nav .show > a:focus,
-.dark.header .dropdown-menu > .active > a,
-.dark.header .dropdown-menu > .active > a:hover,
-.dark.header .dropdown-menu > .active > a:focus,
-.dark.header .dropdown-menu .menu > .active > a,
-.dark.header .dropdown-menu .menu > .active > a:hover,
-.dark.header .dropdown-menu .menu > .active > a:focus {
-  border-color: rgba(60, 67, 61, 0.8);
 }
 
 /* 7 Blocks/Widgets
