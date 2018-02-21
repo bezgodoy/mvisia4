@@ -98,6 +98,10 @@ ul {
   border-top-color: #303030;
 }
 
+#header-top-second {
+  opacity: 0.75;
+}
+
 .header.header-small {
   padding: 10px 0;
 }
