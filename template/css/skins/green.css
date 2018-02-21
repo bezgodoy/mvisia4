@@ -33,18 +33,6 @@ mark,
   color: #F8D27E;
 }
 
-/* Tables
----------------------------------- */
-.table.table-colored {
-  border-bottom-color: #24a828;
-}
-
-.table-colored > thead > tr > th {
-  border-color: #24a828;
-  background-color: #24a828;
-  color: #ffffff;
-}
-
 /* 2- Layout
 -------------------------------------------------
 -------------------------------------------------*/
@@ -102,15 +90,6 @@ mark,
 
 .default-hovered:hover:after,
 .default-hovered:hover {
-  background-color: #24a828;
-}
-
-/* 4 Pages
--------------------------------------------------
--------------------------------------------------*/
-/* Blog Timeline layout
----------------------------------- */
-.timeline-date-label:after {
   background-color: #24a828;
 }
 
