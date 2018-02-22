@@ -51,11 +51,6 @@ mark,
   border-bottom: 1px solid #24a828;
 }
 
-.default-bg {
-  background-color: #24a828;
-  color: #ffffff;
-}
-
 .default-bg-50 {
   background-color: rgba(36, 168, 40, 0.5);
   color: #ffffff;
