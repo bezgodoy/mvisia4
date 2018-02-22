@@ -163,7 +163,7 @@ ul {
 }
 
 .main-container {
-  padding: 100px 0;
+  padding: 90px 0;
 }
 
 .block {
@@ -259,7 +259,10 @@ ul {
   border-bottom: 1px solid #f3f3f3; */
   background-size: cover;
   background-repeat: no-repeat;
-  background: url('../images/tech-bg-image.png');
+}
+
+#technology-section {
+  background: url('../images/tech-bg-image-2.png') center no-repeat;
 }
 
 .dark-bg {
@@ -665,7 +668,7 @@ ul {
 ---------------------------------- */
 .separator {
   width: 100%;
-  margin: 20px auto 15px;
+  margin: 20px auto 25px;
   position: relative;
   height: 1px;
   -webkit-backface-visibility: hidden;
@@ -979,6 +982,11 @@ h5 + .separator {
 .pv-45 {
   padding-top: 45px;
   padding-bottom: 45px;
+}
+
+.pv-55 {
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 
 .mt-5 {
@@ -1576,7 +1584,6 @@ h5 + .separator {
 .btn-animated:after {
   width: 35px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
   position: absolute;
   content: "";
   top: 0;
@@ -3967,7 +3974,7 @@ h6.media-heading {
 }
 
 .clients {
-  margin: 10px auto;
+  margin: 50px auto;
 }
 
 .clients .client-image {
