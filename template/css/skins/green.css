@@ -46,16 +46,6 @@ mark,
   border-top-color: #3c433d;
 }
 
-.header-top.colored {
-  background-color: #24a828;
-  border-bottom: 1px solid #24a828;
-}
-
-.default-bg-50 {
-  background-color: rgba(36, 168, 40, 0.5);
-  color: #ffffff;
-}
-
 /*Transparent Header*/
 .transparent-header header.header.dark.transparent-header-on {
   background-color: rgba(60, 67, 61, 0.8);
@@ -72,20 +62,6 @@ mark,
   .fixed-header-on .dark.header .dropdown-menu {
     border: 1px solid #303631;
   }
-}
-
-/*Translucent Backgrounds*/
-.default-translucent-bg:after {
-  background-color: rgba(36, 168, 40, 0.7);
-}
-
-.default-translucent-bg.hovered:hover:after {
-  background-color: rgba(36, 168, 40, 0.8);
-}
-
-.default-hovered:hover:after,
-.default-hovered:hover {
-  background-color: #24a828;
 }
 
 /* 5 Components
@@ -135,15 +111,6 @@ fieldset[disabled] .btn-default {
   color: #24a828;
 }
 
-.btn-white:hover,
-.btn-white:focus,
-.btn-white.focus,
-.btn-white:active,
-.btn-white.active,
-.show > .dropdown-toggle.btn-white {
-  color: #1f9123;
-}
-
 /* Breadcrumb
 ---------------------------------- */
 .banner .breadcrumb .breadcrumb-item a:hover {
@@ -154,49 +121,10 @@ fieldset[disabled] .btn-default {
   background-color: rgba(60, 67, 61, 0.6);
 }
 
-/* Collapse
----------------------------------- */
-.collapse-style-2 .card-header a {
-  background-color: #24a828;
-}
-
-/* Progress bars
----------------------------------- */
-.progress-bar-default {
-  background-color: #24a828;
-}
-
-/* Forms
----------------------------------- */
-.default-bg .form-control {
-  border-color: #1f9123;
-}
-
-.default-bg .input-group-addon {
-  border-color: #1f9123;
-}
-
 /*Icons
 ---------------------------------- */
 .icon.default-bg {
   background-color: #90CB81;
-}
-
-.icon.light-bg {
-  color: #24a828;
-}
-
-/*Listing Items
----------------------------------- */
-.listing-item .overlay-container .badge {
-  border: 1px solid #24a828;
-  color: #24a828;
-}
-
-/*Modals
----------------------------------- */
-.modal-content .modal-header {
-  background-color: #24a828;
 }
 
 /*Pace (Page loader)
@@ -207,38 +135,6 @@ fieldset[disabled] .btn-default {
 }
 
 .page-loader-1 .pace .pace-progress {
-  background: #24a828;
-}
-
-.page-loader-2 .pace .pace-progress:before {
-  background: #24a828;
-}
-
-.page-loader-2 .pace .pace-activity {
-  border: 5px solid #24a828;
-}
-
-.page-loader-2 .pace .pace-activity:after {
-  border: 5px solid #24a828;
-}
-
-.page-loader-2 .pace .pace-activity:before {
-  border: 5px solid #24a828;
-}
-
-.page-loader-3 .pace .pace-progress {
-  background: #24a828;
-}
-
-.page-loader-4 .pace .pace-progress {
-  background: #24a828;
-}
-
-.page-loader-5 .pace .pace-progress:after {
-  color: #24a828;
-}
-
-.page-loader-6 .pace .pace-activity {
   background: #24a828;
 }
 

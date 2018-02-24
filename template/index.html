@@ -50,16 +50,13 @@
     <link href="css/typography-default.css" rel="stylesheet" >
     <!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
     <link href="css/skins/green.css" rel="stylesheet">
-    
-
+  
     <!-- Custom css --> 
     <link href="css/custom.css" rel="stylesheet">
-    
-    
+       
   </head>
 
-  <!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
-  <body class="front-page ">
+  <body class="page-loader-1">
 
     <!-- scrollToTop -->
     <!-- ================ -->
@@ -83,7 +80,7 @@
                   </ul>
                   <div class="social-links hidden-md-up circle small">
                     <div class="btn-group dropdown">
-                      <button id="header-top-drop-1" type="button" class="btn dropdown-toggle dropdown-toggle--no-caret" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-share-alt"></i></button>
+                      <button id="header-top-drop-1" type="button" class="btn dropdown-toggle--no-caret" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-share-alt"></i></button>
                       <ul class="dropdown-menu dropdown-animation" aria-labelledby="header-top-drop-1">
                         <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
                         <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>
@@ -94,13 +91,13 @@
                 </div>
                 <!-- header-top-first end -->
               </div>
-              <div class="col-11 col-md-9">
+              <div class="col-11 col-md-9 hidden-sm-down">
 
                 <!-- header-top-second start -->
                 <!-- ================ -->
                 <div id="header-top-second"  class="clearfix text-right">
                   <ul class="list-inline">
-                    <li class="list-inline-item">Realizamos projetos sob medida para o seu negócio. Entre em contato:</li>
+                    <li class="list-inline-item hidden-md-down">Realizamos projetos sob medida para o seu negócio.</li>
                     <li class="list-inline-item"><i class="fa fa-envelope-o pr-1 pl-10 text-default"></i>contato@mvisia</li>
                     <li class="list-inline-item"><i class="fa fa-phone pr-1 pl-10 text-default"></i>(+55) (11) 4302-5902</li>
                     <li class="list-inline-item"><i class="fa fa-whatsapp pr-1 pl-10 text-default"></i>(+55) (11) 98134-9727</li>
@@ -115,12 +112,6 @@
         <!-- header-top end -->
 
         <!-- header start -->
-        <!-- classes:  -->
-        <!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
-        <!-- "fixed-desktop": enables fixed navigation only for desktop devices e.g. class="header fixed fixed-desktop clearfix" -->
-        <!-- "fixed-all": enables fixed navigation only for all devices desktop and mobile e.g. class="header fixed fixed-desktop clearfix" -->
-        <!-- "dark": dark version of header e.g. class="header dark clearfix" -->
-        <!-- "centered": mandatory class for the centered logo layout -->
         <!-- ================ -->
         <header class="header fixed fixed-desktop clearfix">
           <div class="container">
@@ -157,11 +148,6 @@
                       <!-- logo -->
                       <div id="logo-mobile" class="logo">
                         <a href="index.html"><img id="logo-img-mobile" src="images/logo-mvisia.svg" alt="Logo Mvisia"></a>
-                      </div>
-
-                      <!-- name-and-slogan -->
-                      <div class="site-slogan">
-                        MVisia - Máquinas de Visão e Inteligência Artificial
                       </div>
 
                     </div>
@@ -439,7 +425,7 @@
       <!-- section end -->
 
       <!-- section start -->     
-      <section id="technology-section" class="dark-translucent-bg pv-55 clearfix">
+      <section id="technology-section" class="dark-translucent-bg tech pv-55 clearfix">
         <div class="container">
           <div class="row">
             <div class="main col-md-12">
@@ -826,6 +812,8 @@
     <script type="text/javascript" src="plugins/morphext/morphext.min.js"></script>
     <!-- Owl carousel javascript -->
     <script type="text/javascript" src="plugins/owlcarousel2/owl.carousel.min.js"></script>
+    <!-- Pace javascript -->
+    <script type="text/javascript" src="plugins/pace/pace.min.js"></script>
     <!-- Initialization of Plugins -->
     <script type="text/javascript" src="js/template.js"></script>
     <!-- Custom Scripts -->
