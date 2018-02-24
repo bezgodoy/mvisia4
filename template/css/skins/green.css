@@ -111,20 +111,16 @@ fieldset[disabled] .btn-default {
   color: #24a828;
 }
 
-/* Breadcrumb
----------------------------------- */
-.banner .breadcrumb .breadcrumb-item a:hover {
-  color: #1f9123;
-}
 
-.banner .dark.breadcrumb-container {
-  background-color: rgba(60, 67, 61, 0.6);
-}
 
 /*Icons
 ---------------------------------- */
 .icon.default-bg {
   background-color: #90CB81;
+}
+
+.icon.default-green {
+  color: #19761c;
 }
 
 /*Pace (Page loader)

@@ -11,3 +11,7 @@ File Description: Place here your custom CSS styles
 .btn {
     font-weight: 300;
 }
+
+.video-case {
+    padding: 30px 150px;
+}
