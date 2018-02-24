@@ -2156,6 +2156,14 @@ h5 + .separator {
   margin-top: 0px;
 }
 
+.feature-box-2 .title {
+  color: #ffffff;
+}
+
+.feature-box-2 p {
+  font-size: 0.8rem;
+}
+
 .feature-box h3 {
   margin-top: 0;
 }
