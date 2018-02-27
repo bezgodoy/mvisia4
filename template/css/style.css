@@ -883,6 +883,16 @@ h5 + .separator {
   padding-right: 20px;
 }
 
+.phl-40 {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.phr-40 {
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
 .pv-30 {
   padding-top: 30px;
   padding-bottom: 30px;
