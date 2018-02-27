@@ -12,6 +12,16 @@ File Description: Place here your custom CSS styles
     font-weight: 300;
 }
 
+.btn-bordered-white {
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+}
+
+.btn-bordered-green {
+    border: 1px solid #24a828;
+    border-radius: 50px;
+}
+
 .video-case {
     padding: 30px 150px;
 }
@@ -21,22 +31,10 @@ File Description: Place here your custom CSS styles
     line-height: 1.25;
 }
 
-.overlay-container-2 {
-    position: relative;
-    display: block;
-    text-align: center;
-    overflow: hidden;
-}
-
 h4.text-white.section-caller {
     font-weight: 400;
-    margin-bottom: 15px;
 }
 
 .section-text {
     font-size: 1.0rem;
-}
-
-.icon-circle-small {
-    width: 25px;
 }

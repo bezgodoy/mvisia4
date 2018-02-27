@@ -261,12 +261,8 @@ ul {
   background-repeat: no-repeat;
 }
 
-#technology-section {
-  background: url('../images/tech-bg-image-2.png') center no-repeat;
-}
-
 .dark-bg {
-  background-color: #373737;
+  background-color: #2c2c2c;
   color: #cdcdcd;
 }
 
@@ -923,14 +919,6 @@ h5 + .separator {
   padding-bottom: 55px;
 }
 
-.mt-5 {
-  margin-top: 5px;
-}
-
-.mb-5 {
-  margin-bottom: 5px;
-}
-
 .mt-10 {
   margin-top: 10px;
 }
@@ -947,6 +935,10 @@ h5 + .separator {
   margin-bottom: 20px;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
 .mb-40 {
   margin-bottom: 40px;
 }
@@ -955,51 +947,9 @@ h5 + .separator {
   margin-bottom: 80px;
 }
 
-.space-top {
-  padding-top: 20px;
-}
-
-.space-bottom {
-  padding-bottom: 20px;
-}
-
-.margin-top-clear {
-  margin-top: 0 !important;
-}
-
-.margin--bottom-clear {
-  margin-bottom: 0 !important;
-}
-
 .margin-clear {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
-}
-
-.padding-top-clear {
-  padding-top: 0 !important;
-}
-
-.padding-bottom-clear {
-  padding-bottom: 0 !important;
-}
-
-.padding-ver-clear {
-  padding-bottom: 0 !important;
-  padding-top: 0 !important;
-}
-
-.padding-hor-clear {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-}
-
-.border-bottom-clear {
-  border-bottom: none !important;
-}
-
-.border-top-clear {
-  border-top: none !important;
 }
 
 .border-clear {
@@ -2131,6 +2081,15 @@ h5 + .separator {
   height: 36px;
 }
 
+.icon-circle-small {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+  height: 20px;
+}
+
 .icons .icon {
   margin: 0 5px 5px 0;
 }
@@ -2163,9 +2122,9 @@ h5 + .separator {
 
 .icon.small {
   font-size: 18px;
-  width: 45px;
-  height: 45px;
-  line-height: 43px;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
 }
 
 /*Feature Box
@@ -2204,6 +2163,16 @@ h5 + .separator {
   left: 0;
 }
 
+.benefits .separator:after {
+  background: rgba(255, 255, 255, 0.5);
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(35%, rgba(255, 255, 255, 0.5)), color-stop(70%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0) 100%);
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0) 100%);
+}
+
 .feature-box .icon {
   margin-bottom: 10px;
 }
@@ -2221,12 +2190,6 @@ h5 + .separator {
 /*style-2*/
 .feature-box-2 {
   position: relative;
-}
-
-.feature-box-2 .icon {
-  position: absolute;
-  top: 0px;
-  left: 0px;
 }
 
 .feature-box-2 .icon.without-bg {
@@ -2247,10 +2210,17 @@ h5 + .separator {
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: -12px;
+  left: 80px;
 }
 
 .feature-box-2 .body {
-  margin-left: 62px;
+  margin-left: 150px;
+}
+
+.feature-box-2 .body p {
+  font-size: 0.9rem;
 }
 
 .feature-box-2:hover .icon {
