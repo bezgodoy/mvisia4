@@ -723,6 +723,17 @@ ul {
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0) 100%);
 }
 
+.object-non-visible {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.object-visible,
+.object-non-visible.object-visible {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
 /* Medium devices (desktops, tablets, 992px and up) */
 @media (min-width: 992px) {
   .two-col-translucent-bg .container > .row > div + div .separator:after {
