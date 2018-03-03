@@ -32,7 +32,7 @@ File Description: Place here your custom CSS styles
 }
 
 h4.text-white.section-caller {
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .section-text {
@@ -59,4 +59,12 @@ ul {
 
 h4.card-title {
     font-weight: 500;
+}
+
+h3.card-title {
+    font-weight: 400;
+}
+
+.tech-detail {
+    float: left;
 }

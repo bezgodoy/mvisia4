@@ -63,7 +63,7 @@
 
     <!-- scrollToTop -->
     <!-- ================ -->
-    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+    <div class="scrollToTop circle"><i class="fa fa-angle-up"></i></div>
 
     <!-- page wrapper start -->
     <!-- ================ -->
@@ -82,7 +82,7 @@
                     <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
                   </ul>
                   <div class="social-links hidden-md-up circle small">
-                    <div class="btn-group dropdown" data-animation-effect="fadeIn" data-animation-effect="fadeOut" data-effect-delay="100">
+                    <div class="btn-group dropdown">
                       <button id="header-top-drop-1" type="button" class="btn dropdown-toggle--no-caret" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-share-alt"></i></button>
                       <ul class="dropdown-menu dropdown-animation" aria-labelledby="header-top-drop-1">
                         <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
@@ -140,6 +140,9 @@
                 <div class="header-second clearfix">
                   
                 <!-- main-navigation start -->
+                <!-- classes: -->
+                <!-- "onclick": Makes the dropdowns open on click, this the default bootstrap behavior e.g. class="main-navigation onclick" -->
+                <!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
                 <!-- ================ -->
                 <div class="main-navigation main-navigation--mega-menu  animated">
                   <nav class="navbar navbar-expand-lg navbar-light p-0">
@@ -209,6 +212,7 @@
         <!-- header end -->
       </div>
       <!-- header-container end -->
+      
       <!-- banner start -->
       <!-- ================ -->
       <div class="banner clearfix">
@@ -403,6 +407,15 @@
       <section class="main-container">
         <div class="container">
           <div class="row">
+            
+            <div class="col-lg-6 order-lg-1 mb-40">
+              <p>A MVisia desenvolve <strong>máquinas e sistemas baseados em visão computacional e inteligência artificial</strong> para determinar o índice de qualidade de produtos agrícolas.</p>
+              <p>O princípio de nossas soluções é um sistema que captura imagens e as envia para um software de análise, que considera <strong>parâmetros relevantes para a seleção de cada produto</strong>.</p>
+              <p>Desenvolvemos também a <strong>estrutura mecatrônica</strong> para viabilizar o processo de acordo com a produtividade necessária para o cliente.</p>
+              <p>Trazemos <strong>eficiência, redução de custos e aumento de qualidade</strong> para sistemas de produção da <strong>agroindústria</strong>, utilizando <strong>visão computacional e inteligência artificial.</strong></p>
+              <a class="btn radius-2 btn-transparent btn-hvr btn-animated btn-bordered-green" href="page-about.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
+            </div>
+
             <div class="col-lg-6 order-lg-2">
               <div class="bordered text-center">
                 <img src="images/about-bg-image.png" alt="mvisia-youtube-channel">
@@ -412,14 +425,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 order-lg-1">
-              <h3 class="title">Sobre a MVisia</h3>
-              <p>A MVisia desenvolve <strong>máquinas e sistemas baseados em visão computacional e inteligência artificial</strong> para determinar o índice de qualidade de produtos agrícolas.</p>
-              <p>O princípio de nossas soluções é um sistema que captura imagens e as envia para um software de análise, que considera <strong>parâmetros relevantes para a seleção de cada produto</strong>.</p>
-              <p>Desenvolvemos também a <strong>estrutura mecatrônica</strong> para viabilizar o processo de acordo com a produtividade necessária para o cliente.</p>
-              <p>Trazemos <strong>eficiência, redução de custos e aumento de qualidade</strong> para sistemas de produção da <strong>agroindústria</strong>, utilizando <strong>visão computacional e inteligência artificial.</strong></p>
-              <a class="btn radius-2 btn-transparent btn-hvr btn-animated btn-bordered-green" href="page-about.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
-            </div>
+
           </div>
         </div>
       </section>
@@ -428,36 +434,35 @@
       <!-- section start -->     
       <section id="technology-section" class="dark-translucent-bg tech pv-55 clearfix" style="background-image:url(images/tech-bg-image-2.png)">
         <div class="container">
-          <div class="row">
+          <div class="row row-eq-height">
             <div class="main col-md-12">
               <h2 class="page-title text-center">Tecnologias</h2>
               <div class="separator"></div>
-              <h4 class="page-subtitle text-center">Somos especialistas em desenvolvimento de softwares inteligentes para o reconhecimento<br> de características visuais por meio de algoritmos próprios e exclusivos.</h4>
-              <br>
+              <h3 class="page-subtitle text-center mb-40">Desenvolvemos softwares inteligentes para o reconhecimento de características<br> visuais por meio de algoritmos próprios e exclusivos.</h3>
 
               <div class="row">
                 <div class="col-md-4 ">
                   <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible mb-20" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
                     <span class="icon default-bg circle"><img class="icon-circle" src="images/technology-1.svg"></span>
-                    <h3>Visão Computacional</h3>
+                    <h4 class="card-title mt-10">Visão Computacional</h4>
                     <div class="separator clearfix"></div>
                     <p>Utilizamos processamento de imagens<br> para automatizar inspeções visuais e<br> aumentar a sua acurácia.</p>
                     <a class="btn btn-transparent btn-animated btn-bordered-green" href="page-technology-1.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
                   </div>
                 </div>
                 <div class="col-md-4 ">
-                  <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible mb-20" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                  <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible mb-20" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
                     <span class="icon default-bg circle"><img class="icon-circle" src="images/technology-2.svg"></span>
-                    <h3>Inteligência Artificial</h3>
+                    <h4 class="card-title mt-10">Inteligência Artificial</h4>
                     <div class="separator clearfix"></div>
                     <p>O aprendizado de máquina e o uso<br> de redes neurais nos auxiliam no<br> reconhecimento de padrões.</p>
                     <a class="btn btn-transparent btn-animated btn-bordered-green" href="page-technology-2.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
                   </div>
                 </div>
                 <div class="col-md-4 ">
-                  <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible mb-20" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                  <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible mb-20" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
                     <span class="icon default-bg circle"><img class="icon-circle" src="images/technology-3.svg"></span>
-                    <h3>Câmeras Hiperespectrais</h3>
+                    <h4 class="card-title mt-10">Câmeras Hiperespectrais</h4>    
                     <div class="separator clearfix"></div>
                     <p>Utilizamos câmeras hiperespectrais para<br> analisar características que não podem<br> ser vistas com câmeras tradicionais.</p>
                     <a class="btn btn-transparent btn-animated btn-bordered-green" href="page-technology-3.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
@@ -466,16 +471,15 @@
               </div>
             </div>
           </div>
-          <br>
         </div>
       </section>
       <!-- section end -->  
 
       <!-- section start -->
       <!-- ================ -->
-      <section class="main-container">
+      <div class="section">
 
-      <div class="container">
+      <div class="container pv-30">
       <div class="row">
         
       <!-- main start -->
@@ -484,19 +488,18 @@
       
       <h2 class="page-title text-center">Cases de Sucesso</h2>
       <div class="separator"></div>
-      <br>
       
-      <div class="row">
+      <div class="row pv-30">
         <div class="col-sm-3">
-          <div class="image-box style-2 mb-20 bordered dark-bg text-center">
-            <div class="overlay-container-2">
+          <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+            <div class="overlay-container border-clear">
               <img src="images/case-1.png" alt="">
               <div class="overlay-to-top">
-                <p class="small margin-clear">Detalhe</p>
+                <p class="small margin-clear">Velocidade de 3600 mudas por hora</p>
               </div>
             </div>
             <div class="body">
-              <h3 class="text-white">Tomate</h3>
+              <h3 class="card-title text-white">Tomate</h3>
               <div class="separator"></div>
               <p>Calibradora eletrônica de<br> tomates miúdos</p>
               <a class="btn btn-transparent btn-animated text-white btn-bordered-white" href="page-case-1.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
@@ -504,15 +507,15 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="image-box style-2 mb-20 bordered dark-bg text-center">
+          <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
             <div class="overlay-container border-clear">
               <img src="images/case-2.png" alt="">
               <div class="overlay-to-top">
-                <p class="small margin-clear">Detalhe</p>
+                <p class="small margin-clear">Velocidade de 3600 mudas por hora</p>
               </div>
             </div>
             <div class="body">
-              <h3 class="text-white">Uva</h3>
+              <h3 class="card-title text-white">Uva</h3>
               <div class="separator"></div>
               <p>Sistema automático de<br> qualificação de uvas</p>
               <a class="btn btn-transparent btn-animated text-white btn-bordered-white" href="page-case-2.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
@@ -520,15 +523,15 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="image-box style-2 mb-20 bordered dark-bg text-center">
+          <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
             <div class="overlay-container border-clear">
                 <img src="images/case-3.png" alt="">
               <div class="overlay-to-top">
-                <p class="small margin-clear">Detalhe</p>
+                <p class="small margin-clear">Velocidade de 3600 mudas por hora</p>
               </div>
             </div>
             <div class="body">
-              <h3 class="text-white">Eucalipto</h3>
+              <h3 class="card-title text-white">Eucalipto</h3>
               <div class="separator"></div>
               <p>Seletora automática de<br> mudas florestais</p>
               <a class="btn btn-transparent btn-animated text-white btn-bordered-white" href="page-case-3.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
@@ -536,7 +539,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="image-box style-2 mb-20 bordered dark-bg text-center">
+          <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="400">
             <div class="overlay-container border-clear">
                 <img src="images/case-4.png" alt="">
               <div class="overlay-to-top">
@@ -544,7 +547,7 @@
               </div>
             </div>
             <div class="body">
-              <h3 class="text-white">Flores</h3>
+              <h3 class="card-title text-white">Flores</h3>
               <div class="separator"></div>
               <p>Seletora automática de<br> mudas de flores</p>
               <a class="btn btn-transparent btn-animated text-white btn-bordered-white" href="page-case-4.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
@@ -556,7 +559,7 @@
       </div>
       </div>
       </div>  
-      </section>
+    </div>
       <!-- section end -->
 
       <!-- section start -->
@@ -568,7 +571,7 @@
               <div class="call-to-action">
                 <div class="row">
                   <div class="col-sm-12 text-center">
-                    <h4 class="mt-10 text-white section-caller mb-20">Realizamos projetos para o seu negócio. Entre em contato:</h4>
+                    <h4 class="text-white section-caller mt-10 mb-10">Realizamos projetos para o seu negócio. Entre em contato:</h4>
                   </div>
                 </div>
 
@@ -595,7 +598,7 @@
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-md-8">
-              <h2 class="text-center mt-4">Vantagens</h2>
+              <h2 class="page-title text-center mt-4">Vantagens</h2>
               <div class="separator"></div>
             </div>
           </div>
@@ -603,7 +606,7 @@
             <div class="col-lg-4">
               <div class="pv-30 feature-box benefits text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
                 <span class="icon default-bg circle"><img class="icon-circle" src="images/icon-benefit-1.svg"></span>
-                <h3>Redução de custos</h3>
+                <h3 class="card-title">Redução de custos</h3>
                 <div class="separator clearfix"></div>
                 <p>Automação na seleção de produtos<br> e na avaliação de qualidade</p>
               </div>
@@ -611,7 +614,7 @@
             <div class="col-lg-4">
               <div class="pv-30 feature-box benefits text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
                 <span class="icon default-bg circle"><img class="icon-circle" src="images/icon-benefit-2.svg"></span>
-                <h3>Aumento de Produtividade</h3>
+                <h3 class="card-title">Aumento de Produtividade</h3>
                 <div class="separator clearfix"></div>
                 <p>Ganho de eficiência nos processos de<br> seleção e de controle de qualidade</p>
               </div>
@@ -619,7 +622,7 @@
             <div class="col-lg-4">
               <div class="pv-30 feature-box benefits text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
                 <span class="icon default-bg circle"><img class="icon-circle" src="images/icon-benefit-3.svg"></span>
-                <h3>Controle de qualidade</h3>
+                <h3 class="card-title">Controle de qualidade</h3>
                 <div class="separator clearfix"></div>
                 <p>Ganho de precisão para a seleção da safra<br> e garantia de produtos com qualidade</p>
               </div>
@@ -637,7 +640,7 @@
             <div class="col-lg-4">
               <div class="pv-30 feature-box benefits text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
                 <span class="icon default-bg circle"><img class="icon-circle" src="images/icon-benefit-5.svg"></span>
-                <h3>Operação intuitiva</h3>
+                <h3 class="card-title">Operação intuitiva</h3>
                 <div class="separator clearfix"></div>
                 <p>Máquinas e sistemas de fácil operação</p>
               </div>
@@ -645,7 +648,7 @@
             <div class="col-lg-4">
               <div class="pv-30 feature-box benefits text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
                 <span class="icon default-bg circle"><img class="icon-circle" src="images/icon-benefit-6.svg"></span>
-                <h3>Assistência técnica</h3>
+                <h3 class="card-title">Assistência técnica</h3>
                 <div class="separator clearfix"></div>
                 <p>Garantia dos equipamentos e atuação de<br> equipe especializada no suporte</p>
               </div>
@@ -657,8 +660,8 @@
 
       <!-- section start -->
       <!-- ================ -->
-      <section>
-        <div class="main-container">
+      <div class="section">
+        <div class="container pv-30">
           <h2 class="page-title text-center">Clientes</h2>
           <div class="separator"></div>
           <div class="clients-container">
@@ -730,7 +733,7 @@
                   </div>
 
                   <div class="col-md-6">
-                    <div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                    <div class="feature-box-2 object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
                       <span class="icon default-bg small circle"><img class="icon-circle-small" src="images/icon-benefit-6.svg"></span>
                       <div class="body">
                         <p class="title">Garantia e assistência técnica capacitada</p>
@@ -813,9 +816,9 @@
       <!-- section na mídia end -->
 
       <!-- section contact start -->
-      <section class="main-container">
+      <div class="section">
         
-      <div class="container">
+      <div class="container pv-30 mb-40">
       <div class="row">
         
       <!-- main start -->

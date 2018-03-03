@@ -136,7 +136,7 @@ ul {
 }
 
 .header-first {
-  padding: 12px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 .scroll-spy .banner {
@@ -388,7 +388,7 @@ ul {
   color: #ffffff;
 }
 
-.dark-translucent-bg.tech, .dark-translucent-bg.tech h3 {
+.dark-translucent-bg.tech, .dark-translucent-bg.tech h4 {
   color: #333333;
 }
 
