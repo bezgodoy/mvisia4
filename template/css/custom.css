@@ -32,9 +32,31 @@ File Description: Place here your custom CSS styles
 }
 
 h4.text-white.section-caller {
-    font-weight: 400;
+    font-weight: 100;
 }
 
 .section-text {
     font-size: 1.0rem;
+}
+
+ul {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.logo-prize {
+    height: 75px;
+}
+
+.expertises {
+    font-size: 14px;
+    opacity: 0.75;
+}
+
+h4.card-title {
+    font-weight: 500;
 }
