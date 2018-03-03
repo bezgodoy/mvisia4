@@ -68,3 +68,7 @@ h3.card-title {
 .tech-detail {
     float: left;
 }
+
+#benefits, #technology-section {
+    box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.5);
+}
