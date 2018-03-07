@@ -1418,7 +1418,8 @@ h5 + .separator {
 /*Buttons Sizes*/
 .btn {
   padding: 7px 20px;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 500;
   line-height: 1.4666666667;
   border-radius: 3px;
   margin: 10px 0;
@@ -2312,9 +2313,9 @@ h5 + .separator {
 
 .bordered {
   border: 1px solid #f1f1f1;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .dark-bg .bordered {
