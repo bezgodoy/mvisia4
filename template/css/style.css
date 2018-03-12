@@ -136,7 +136,7 @@ ul {
 }
 
 .header-first {
-  padding: 20px 0 0 0;
+  padding: 12px 0 0 0;
 }
 
 .scroll-spy .banner {
@@ -1501,7 +1501,7 @@ h5 + .separator {
   z-index: 3;
   right: 17px;
   position: absolute;
-  line-height: 30px;
+  line-height: 32px;
   top: 0;
   min-width: 12px;
 }
@@ -3199,7 +3199,7 @@ h5 + .separator {
 }
 
 #logo {
-  width: 145px;
+  width: 135px;
 }
 
 #logo-mobile {

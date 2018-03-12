@@ -9,16 +9,16 @@ File Description: Place here your custom CSS styles
 */
 
 .btn {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .btn-bordered-white {
-    border: 1px solid #ffffff;
+    border: 1.5px solid #ffffff;
     border-radius: 50px;
 }
 
 .btn-bordered-green {
-    border: 2px solid #24a828;
+    border: 1.5px solid #24a828;
     border-radius: 50px;
 }
 
@@ -41,8 +41,6 @@ h4.text-white.section-caller {
 
 ul {
     display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 0px;
@@ -75,4 +73,8 @@ h3.card-title {
 
 .image-alone {
     border-radius: 5px;
+}
+
+.title-about {
+    font-weight: 500;
 }
