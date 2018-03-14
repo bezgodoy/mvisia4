@@ -105,3 +105,15 @@ h3.card-title {
 .bigger {
     font-size: 1.1rem;
 }
+
+h3.news-title {
+    font-weight: 500;
+}
+
+.news-body {
+    font-weight: 200;
+}
+
+.feature-box-2 .icon.icon-benefit {
+    top: -10px;
+}
