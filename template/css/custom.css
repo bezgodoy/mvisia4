@@ -12,14 +12,25 @@ File Description: Place here your custom CSS styles
     font-weight: 400;
 }
 
-.btn-bordered-white {
+.btn-bordered-white, .btn-bordered-white:hover {
     border: 1.5px solid #ffffff;
     border-radius: 50px;
+    background: white;
+    color: #1e231e;
 }
 
 .btn-bordered-green {
-    border: 1.5px solid #24a828;
+    border: 1.5px solid #0b8743;
     border-radius: 50px;
+    background: #0b8743;
+    color: white;
+}
+
+.btn-bordered-green:hover {
+    border: 1.5px solid #007f3e;
+    border-radius: 50px;
+    background: #007f3e;
+    color: white;
 }
 
 .video-case {
@@ -77,4 +88,20 @@ h3.card-title {
 
 .title-about {
     font-weight: 500;
+}
+
+.special-container {
+    margin: 25px 30px 30px 60px;
+}
+
+.img-container {
+    border-radius: 3px;
+}
+
+.banner .list-inline-item{
+    font-size: 1.0rem;
+}
+
+.bigger {
+    font-size: 1.1rem;
 }

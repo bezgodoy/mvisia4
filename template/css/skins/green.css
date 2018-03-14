@@ -116,7 +116,7 @@ fieldset[disabled] .btn-default {
 /*Icons
 ---------------------------------- */
 .icon.default-bg {
-  background-color: #90CB81;
+  background-color: transparent;
 }
 
 .icon.default-green {

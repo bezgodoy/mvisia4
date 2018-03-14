@@ -268,7 +268,7 @@
 				sliderLayout:"fullwidth",
 				delay:8000,
 				gridwidth:1140,
-				gridheight:600,
+				gridheight:630,
 				responsiveLevels:[1199,991,767,480],
 				navigation: {
 					onHoverStop: "off",

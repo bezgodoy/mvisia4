@@ -69,7 +69,7 @@ $(window).on('scroll', function() {
         var sectionLink = $(this);
 
         // capture the height of the navbar
-        var navHeight = $('.navbar').outerHeight() + 1;
+        var navHeight = $('.header').outerHeight() + 1;
         var section = $(sectionLink.attr('href'));
 
         // subtract the navbar height from the top of the section
