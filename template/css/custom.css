@@ -62,8 +62,7 @@ ul {
 }
 
 .expertises {
-    font-size: 14px;
-    opacity: 0.75;
+    font-size: 1.0rem;
 }
 
 h4.card-title {
@@ -116,4 +115,30 @@ h3.news-title {
 
 .feature-box-2 .icon.icon-benefit {
     top: -10px;
+}
+
+.icon-right-open {
+    color: #007F3D;
+}
+
+.icon-circle-custom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -6px;
+    margin-left: 12px;
+    height: 35px;
+}
+
+h3.title-subsection {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.small {
+    line-height: 0.9rem;
 }
