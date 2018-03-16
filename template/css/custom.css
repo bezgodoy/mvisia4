@@ -71,6 +71,7 @@ h4.card-title {
 
 h3.card-title {
     font-weight: 400;
+    color: white;
 }
 
 .tech-detail {
@@ -151,4 +152,13 @@ h3.title-subsection {
 .feature-box p.how-works-text {
     font-size: 0.85rem;
     margin-bottom: 0;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+h4.title {
+    font-size: 1.1rem;
+    margin-left: 50px;
 }

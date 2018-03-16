@@ -2319,6 +2319,10 @@ h5 + .separator {
   margin-left: 25px;
 }
 
+.card-title.ml-50 {
+  margin-left: 50px;
+}
+
 /* Medium devices (desktops, tablets less than 991px) */
 @media (max-width: 991px) {
   .feature-box-2:not(.boxed) {
