@@ -142,3 +142,13 @@ h3.title-subsection {
 .small {
     line-height: 0.9rem;
 }
+
+.how-works-title {
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+
+.feature-box p.how-works-text {
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}

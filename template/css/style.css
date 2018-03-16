@@ -916,6 +916,11 @@ h5 + .separator {
   padding-right: 40px;
 }
 
+.pv-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .pv-30 {
   padding-top: 30px;
   padding-bottom: 30px;
