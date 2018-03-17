@@ -62,7 +62,7 @@ ul {
 }
 
 .expertises {
-    font-size: 1.0rem;
+    font-size: 0.95rem;
 }
 
 h4.card-title {
@@ -125,7 +125,6 @@ h3.news-title {
 .icon-circle-custom {
     position: absolute;
     top: 50%;
-    left: 50%;
     margin-top: -6px;
     margin-left: 12px;
     height: 35px;
@@ -159,6 +158,10 @@ h3.title-subsection {
 }
 
 h4.title {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-left: 50px;
+}
+
+.separator-custom {
+    margin-bottom: 15px;
 }
