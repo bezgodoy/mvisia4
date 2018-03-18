@@ -7,54 +7,19 @@ Created:May 2015
 License URI:http://support.wrapbootstrap.com/
 File Description:Green Skin
 */
-/* 1- Typography
+/* Contact Icons
 -------------------------------------------------
 -------------------------------------------------*/
-a {
-  color: #24a828;
-}
-
-a:hover {
-  color: #1f9123;
-}
-
-a:focus,
-a:active {
-  color: #1f9123;
-}
-
-mark,
-.mark {
-  background-color: #24a828;
-  color: #ffffff;
-}
-
 .text-default {
   color: #F8D27E;
 }
 
-/* 2- Layout
+/* Layout
 -------------------------------------------------
 -------------------------------------------------*/
 .header-top.dark {
   background-color: #303631;
   border-bottom: 1px solid #242824;
-}
-
-.header.dark {
-  background-color: #3c433d;
-  border-top-color: #3c433d;
-}
-
-/*Transparent Header*/
-.transparent-header header.header.dark.transparent-header-on {
-  background-color: rgba(60, 67, 61, 0.8);
-  border-top-color: rgba(36, 40, 36, 0.5);
-}
-
-/*Fixed Navigation*/
-.fixed-header-on .dark.header.fixed {
-  background-color: rgba(60, 67, 61, 0.95);
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -64,68 +29,17 @@ mark,
   }
 }
 
-/* 5 Components
+/* Components
 -------------------------------------------------
 -------------------------------------------------*/
-/* Buttons
----------------------------------- */
-.btn-default {
-  background-color: #007F3D;
-}
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default.focus,
-.btn-default:active,
-.btn-default.active,
-.show > .dropdown-toggle.btn-default {
-  background-color: #1f9123;
-  border-color: #1f9123;
-}
-
-.btn-default.disabled,
-.btn-default[disabled],
-fieldset[disabled] .btn-default {
-  background-color: #24a828;
-  border-color: #1f9123;
-}
-
-.btn-default-transparent {
-  border-color: #24a828;
-}
-
-.btn-default-transparent:hover,
-.btn-default-transparent:focus,
-.btn-default-transparent.focus,
-.btn-default-transparent:active,
-.btn-default-transparent.active,
-.show > .dropdown-toggle.btn-default-transparent {
-  background-color: #1f9123;
-  border-color: #19761c;
-}
-
-.default-bg .btn-default,
-.default-translucent-bg .btn-default,
-.default-bg .btn-default-transparent,
-.default-translucent-bg .btn-default-transparent {
-  color: #24a828;
-}
-
-
-
 /*Icons
 ---------------------------------- */
 .icon.default-bg {
   background-color: transparent;
 }
 
-.icon.default-green {
-  color: #19761c;
-}
-
 /*Pace (Page loader)
 ---------------------------------- */
-/*loader 1*/
 .page-loader-1 .pace {
   border: 1px solid #24a828;
 }
@@ -162,19 +76,6 @@ fieldset[disabled] .btn-default {
   color: #1f9123;
 }
 
-header:not(.dark) .mega-menu .menu > li > a:hover i,
-header:not(.dark) .dropdown-menu > li > a:hover i,
-header:not(.dark) .mega-menu .menu > li.active > a i,
-header:not(.dark) .dropdown-menu > li.active > a i {
-  color: #24a828;
-}
-
-.navbar-light .navbar-toggler:hover,
-.navbar-light .navbar-toggler:focus {
-  border-color: #1f9123;
-  outline: none;
-}
-
 /* Small devices (tablets, phones less than 767px) */
 @media (max-width: 991px) {
   .header .navbar-nav .active .nav-link,
@@ -195,115 +96,11 @@ header:not(.dark) .dropdown-menu > li.active > a i {
   .header .navbar-nav .show .dropdown-menu > li > a:focus {
     color: #1f9123;
   }
-  /* Arrow for parent menu item */
-  .header .navbar-nav .dropdown.show > .dropdown-toggle::after {
-    color: #24a828;
-  }
 }
 
-/* 7 Blocks/Widgets
--------------------------------------------------
--------------------------------------------------*/
-/* Social icons block
----------------------------------- */
-.social-links li a:hover {
-  border-color: #1f9123;
-  color: #1f9123;
-}
-
-.social-links.animated-effect-1 li a:after {
-  background-color: #24a828;
-}
-
-.social-links.default li a {
-  background-color: #24a828;
-  border: 1px solid #1f9123;
-}
-
-.header-top:not(.dark) .social-links .dropdown.show > button > i:before {
-  color: #24a828;
-}
-
-/*Header Dropdowns (search, cart etc)
----------------------------------- */
-.header-dropdown-buttons .btn-group > .btn:hover {
-  background-color: #24a828;
-  border-color: #1f9123;
-}
-
-.header-dropdown-buttons .btn-group.show > .btn {
-  background-color: #24a828;
-  border-color: #1f9123;
-}
-
-.dark.header-top .dropdown-menu {
-  border: 1px solid #242824;
-  background: #303631;
-}
-
-.colored.header-top .dropdown-menu {
-  border: 1px solid #24a828;
-  background: #24a828;
-}
-
-/* Media
----------------------------------- */
-.media:hover .icon {
-  color: #24a828;
-  border: 1px solid #24a828;
-}
-
-/* Full Width Content
----------------------------------- */
-/* Large and Medium devices (desktops, tablets less than 1199px) */
-@media (max-width: 1199px) {
-  .full-width-section:not(.no-image) .full-text-container.default-bg {
-    background-color: rgba(36, 168, 40, 0.6);
-  }
-}
-
-/* Pricing tables
----------------------------------- */
-.popover-title {
-  background-color: #24a828;
-}
-
-/* Tags cloud block
----------------------------------- */
-.tag a {
-  background-color: #24a828;
-  border: 1px solid #1f9123;
-}
-
-.tag a:hover {
-  color: #24a828;
-  border-color: #1f9123;
-}
-
-/* 8 Main Slideshow
+/* Main Slideshow
 -------------------------------------------------
 -------------------------------------------------*/
 .tp-bannertimer {
   background-color: rgba(36, 168, 40, 0.8);
-}
-
-/* 9 Owl Carousel
--------------------------------------------------
--------------------------------------------------*/
-.content-slider-with-large-controls .owl-nav .owl-prev:after,
-.content-slider-with-large-controls-autoplay .owl-nav .owl-prev:after {
-  color: #24a828;
-}
-
-.content-slider-with-large-controls .owl-nav .owl-next:after,
-.content-slider-with-large-controls-autoplay .owl-nav .owl-next:after {
-  color: #24a828;
-}
-
-/* 10 Full Page
--------------------------------------------------
--------------------------------------------------*/
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span {
-  background: rgba(36, 168, 40, 0.8);
 }
