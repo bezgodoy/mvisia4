@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-9347 -11857 28 28">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1512" data-name="Rectangle 1512" class="cls-1" width="7" height="7" transform="translate(234 1385)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3630" data-name="Group 3630" transform="translate(-9578 -13239)">
+    <g id="Rectangle_1510" data-name="Rectangle 1510" class="cls-2" transform="translate(231 1382)">
+      <rect class="cls-5" width="28" height="28" rx="5"/>
+      <rect class="cls-6" x="0.75" y="0.75" width="26.5" height="26.5" rx="4.25"/>
+    </g>
+    <path id="Path_4078" data-name="Path 4078" class="cls-3" d="M14.5,10a4.5,4.5,0,1,0,2.842,7.97l3.882,3.882a.45.45,0,1,0,.637-.632l-3.882-3.882A4.492,4.492,0,0,0,14.5,10Zm0,.9a3.6,3.6,0,1,1-3.6,3.6A3.589,3.589,0,0,1,14.5,10.9Z" transform="translate(229 1380)"/>
+    <g id="Mask_Group_40" data-name="Mask Group 40" class="cls-4">
+      <g id="Rectangle_1511" data-name="Rectangle 1511" class="cls-2" transform="translate(234 1385)">
+        <rect class="cls-5" width="22" height="22" rx="3"/>
+        <rect class="cls-6" x="0.75" y="0.75" width="20.5" height="20.5" rx="2.25"/>
+      </g>
+    </g>
+    <g id="Mask_Group_41" data-name="Mask Group 41" class="cls-4" transform="translate(1641 1151) rotate(90)">
+      <g id="Rectangle_1513" data-name="Rectangle 1513" class="cls-2" transform="translate(234 1385)">
+        <rect class="cls-5" width="22" height="22" rx="3"/>
+        <rect class="cls-6" x="0.75" y="0.75" width="20.5" height="20.5" rx="2.25"/>
+      </g>
+    </g>
+    <g id="Mask_Group_43" data-name="Mask Group 43" class="cls-4" transform="translate(490 2792) rotate(180)">
+      <g id="Rectangle_1517" data-name="Rectangle 1517" class="cls-2" transform="translate(234 1385)">
+        <rect class="cls-5" width="22" height="22" rx="3"/>
+        <rect class="cls-6" x="0.75" y="0.75" width="20.5" height="20.5" rx="2.25"/>
+      </g>
+    </g>
+    <g id="Mask_Group_42" data-name="Mask Group 42" class="cls-4" transform="translate(-1151 1641) rotate(-90)">
+      <g id="Rectangle_1515" data-name="Rectangle 1515" class="cls-2" transform="translate(234 1385)">
+        <rect class="cls-5" width="22" height="22" rx="3"/>
+        <rect class="cls-6" x="0.75" y="0.75" width="20.5" height="20.5" rx="2.25"/>
+      </g>
+    </g>
+  </g>
+</svg>
