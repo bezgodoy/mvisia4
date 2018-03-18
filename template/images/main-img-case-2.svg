@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-13936 -12180 510.4 422.851">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-13936 -11689 510.4 422.851">
   <defs>
     <style>
       .cls-1 {
@@ -146,7 +146,7 @@
       <stop offset="1" stop-color="#007f3e"/>
     </linearGradient>
   </defs>
-  <g id="Group_4064" data-name="Group 4064" transform="translate(-13936 -12177.649)">
+  <g id="Group_4065" data-name="Group 4065" transform="translate(-13936 -11686.649)">
     <path id="Path_4895" data-name="Path 4895" class="cls-1" d="M.1,207.7,340.3,404.1l170.1-98.4L170.1,109.5Z"/>
     <path id="Path_4896" data-name="Path 4896" class="cls-2" d="M241.1,232.2l-21.8,12.6L395.1,345.3l31-6.8Z"/>
     <path id="Path_4897" data-name="Path 4897" class="cls-3" d="M340.3,420.5l170.1-98.2V305.7L340.3,404.1Z"/>
@@ -801,7 +801,7 @@
     <line id="Line_494" data-name="Line 494" class="cls-33" y2="65.1" transform="translate(399.5 154)"/>
     <path id="Path_5349" data-name="Path 5349" class="cls-33" d="M404.8,214.4l-5.4,5.4-5.2-5.3"/>
     <line id="Line_495" data-name="Line 495" class="cls-33" x2="58.6" transform="translate(399.5 153.4)"/>
-    <text id="_03" data-name="03" class="cls-34" transform="translate(412.82 142.524)"><tspan x="0" y="0">03</tspan></text>
+    <text id="_04" data-name="04" class="cls-34" transform="translate(412.82 142.524)"><tspan x="0" y="0">04</tspan></text>
     <line id="Line_496" data-name="Line 496" class="cls-33" y2="16.7" transform="translate(274.4 36.5)"/>
     <path id="Path_5350" data-name="Path 5350" class="cls-33" d="M279.7,48.4l-5.4,5.4-5.2-5.2"/>
     <line id="Line_497" data-name="Line 497" class="cls-33" x2="58.6" transform="translate(274.4 36.5)"/>
@@ -809,7 +809,7 @@
     <text id="_02" data-name="02" class="cls-34" transform="translate(287.745 25.65)"><tspan x="0" y="0">02</tspan></text>
     <path id="Path_5351" data-name="Path 5351" class="cls-33" d="M301.5,124.2l-5.4-5.4,5.2-5.3"/>
     <line id="Line_499" data-name="Line 499" class="cls-33" x2="58.6" transform="translate(298.8 118.8)"/>
-    <text id="_04" data-name="04" class="cls-34" transform="translate(312.123 107.925)"><tspan x="0" y="0">04</tspan></text>
+    <text id="_03" data-name="03" class="cls-34" transform="translate(312.123 107.925)"><tspan x="0" y="0">03</tspan></text>
     <path id="Path_5352" data-name="Path 5352" class="cls-33" d="M135.2,148.2H120.7V71.9"/>
     <path id="Path_5353" data-name="Path 5353" class="cls-33" d="M129.8,142.6l5.4,5.3-5.3,5.3"/>
     <text id="_01" data-name="01" class="cls-34" transform="translate(75.387 60.982)"><tspan x="0" y="0">01</tspan></text>
