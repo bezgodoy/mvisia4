@@ -34,7 +34,7 @@ File Description: Place here your custom CSS styles
 }
 
 .video-case {
-    padding: 30px 150px;
+    padding: 30px 50px;
 }
 
 .cta-youtube {
@@ -91,7 +91,7 @@ h3.card-title {
 }
 
 .special-container {
-    margin: 25px 30px 30px 60px;
+    margin: 0 30px 0 30px;
 }
 
 .img-container {
@@ -116,6 +116,7 @@ h3.news-title {
 
 .feature-box-2 .icon.icon-benefit {
     top: -10px;
+    left: 5px;
 }
 
 .icon-right-open {
@@ -144,7 +145,7 @@ h3.title-subsection {
 }
 
 .how-works-title {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -158,7 +159,7 @@ h3.title-subsection {
 }
 
 h4.title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-left: 50px;
 }
 

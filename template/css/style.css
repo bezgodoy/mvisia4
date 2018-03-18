@@ -110,11 +110,6 @@ ul {
   background-color: #222222;
 }
 
-.dark .subfooter {
-  background-color: #373737;
-  border-color: #454545;
-}
-
 /*Transparent Header*/
 .transparent-header .header-top {
   z-index: 103;
@@ -163,7 +158,7 @@ ul {
 }
 
 .main-container {
-  padding: 60px 15px;
+  padding: 60px 0;
 }
 
 .section {
@@ -181,27 +176,6 @@ ul {
 
 .footer-content {
   padding: 20px 0;
-}
-
-.subfooter {
-  background-color: #f5f5f5;
-  padding: 25px 0;
-  border-top: 1px solid #eaeaea;
-}
-
-.full-page .subfooter {
-  background-color: transparent;
-  position: fixed;
-  border: none;
-  color: #bbbbbb;
-  width: 100%;
-  bottom: 0;
-  padding: 15px 0;
-}
-
-.full-page .subfooter p a {
-  text-decoration: none;
-  color: #a1a1a1;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1118,21 +1092,6 @@ h5 + .separator {
   font-size: 22px;
   text-transform: none;
   margin-bottom: 10px;
-}
-
-/*Subfooter*/
-.subfooter {
-  font-size: 14px;
-  line-height: 1.3;
-  color: #999999;
-}
-
-.subfooter p {
-  margin-bottom: 0;
-}
-
-.subfooter.default-bg {
-  color: #ffffff;
 }
 
 /* 4 Pages
@@ -2313,11 +2272,12 @@ h5 + .separator {
 }
 
 .card-title.ml-25 {
+  font-size: 1.0rem;
   margin-left: 25px;
 }
 
-.card-title.ml-50 {
-  margin-left: 50px;
+.card-title.ml-80 {
+  margin-left: 80px;
 }
 
 /* Medium devices (desktops, tablets less than 991px) */
@@ -2345,6 +2305,12 @@ h5 + .separator {
 
 .bordered {
   border: 1px solid #f1f1f1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.rounded {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -2472,9 +2438,6 @@ h5 + .separator {
   display: block;
   text-align: center;
   overflow: hidden;
-  border-top: 1px solid #f5f5f5;
-  border-left: 1px solid #f5f5f5;
-  border-right: 1px solid #f5f5f5;
 }
 
 .overlay-bottom,
@@ -2575,24 +2538,6 @@ h5 + .separator {
   color: #777777;
   background-color: #ffffff;
 }
-
-/* .overlay-container:hover .overlay-top,
-.overlay-container:hover .overlay-bottom,{
-  height: 50%;
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translateZ(0) scale(1, 1);
-}
-
-.image-box.style-2:hover .overlay-top,
-.image-box.style-2:hover .overlay-bottom {
-  height: 100%;
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translateZ(0) scale(1, 1);
-} */
 
 .overlay-container:hover .overlay-top,
 .overlay-container:hover .overlay-bottom,
