@@ -123,38 +123,25 @@
                 <!-- header-first start -->
                 <!-- ================ -->
                 <div class="header-first clearfix">
-
                   <!-- logo -->
                   <div id="logo" class="logo">
                     <a href="index.html" target="_self"><img id="logo_img" src="images/logo-mvisia.svg" alt="Logo MVisia"></a>
                   </div>
-
                 </div>
                 <!-- header-first end -->
-
               </div>
               <div class="col-lg-8 ml-lg-auto">
-          
                 <!-- header-second start -->
-                <!-- ================ -->
                 <div class="header-second clearfix">
-                  
                 <!-- main-navigation start -->
-                <!-- classes: -->
-                <!-- "onclick": Makes the dropdowns open on click, this the default bootstrap behavior e.g. class="main-navigation onclick" -->
-                <!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
-                <!-- ================ -->
                 <div class="main-navigation main-navigation--mega-menu  animated">
                   <nav class="navbar navbar-expand-lg navbar-light p-0">
                     <div class="navbar-brand clearfix hidden-lg-up">
-
                       <!-- logo -->
                       <div id="logo-mobile" class="logo">
                         <a href="index.html"><img id="logo-img-mobile" src="images/logo-mvisia.svg" alt="Logo Mvisia"></a>
                       </div>
-
                     </div>
-                    
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-controls="navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -162,32 +149,37 @@
                     <div class="collapse navbar-collapse" id="navbar-collapse-1">
                       <!-- main-menu -->
                       <ul class="navbar-nav ml-xl-auto">
-                        <li class="nav-item mega-menu mega-menu--wide">
-                          <a class="section-btn nav-link" href="#about-section" target="_self" aria-expanded="false">Sobre</a>
-                        </li>
+                        <!-- about -->
                         <li class="nav-item">
-                          <a class="section-btn nav-link" href="#technology-section" target="_self" aria-expanded="false">Tecnologias</a>
+                          <a class="section-btn nav-link" href="page-about.html" target="_self" aria-expanded="false">Sobre</a>
                         </li>
+                        <!-- technologies -->
+                        <li class="nav-item dropdown">
+                          <a class="section-btn nav-link dropdown-toggle" data-toggle="dropdown" href="#">Tecnologias</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="page-tech-visao-computacional.html">Visão computacional</a></li>
+                            <li><a href="page-tech-inteligencia-artificial.html">Inteligência artificial</a></li>
+                            <li><a href="page-tech-cameras-hiperespectrais.html">Câmeras hiperespectrais</a></li>
+                          </ul>
+                        </li>
+                        <!-- cases -->
+                        <li class="nav-item dropdown">
+                          <a class="section-btn nav-link dropdown-toggle" data-toggle="dropdown" href="#">Cases</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="page-case-calibradora.html">Calibradora eletrônica de tomates</a></li>
+                            <li><a href="page-case-seletora-mudas-eucalipto">Seletora de mudas de eucalipto</a></li>
+                            <li><a href="page-case-seletora-mudas-flores">Seletora de mudas de flores</a></li>
+                            <li><a href="page-case-seletora-mudas-flores">Sistema de qualificação de uvas</a></li>
+                          </ul>
+                        </li>
+                        <!-- media -->
                         <li class="nav-item">
-                          <a class="section-btn nav-link" href="#case-section" target="_self" aria-expanded="false">Cases</a>
+                          <a class="section-btn nav-link" href="page-media.html" target="_self" aria-haspopup="true" aria-expanded="false">Na mídia</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="section-btn nav-link" href="#benefit-section" target="_self" aria-expanded="false">Vantagens</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="section-btn nav-link" href="#client-section" target="_self" aria-expanded="false">Clientes</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="section-btn nav-link" href="#media-section" target="_self" aria-haspopup="true" aria-expanded="false">Na mídia</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="section-btn nav-link" href="#contact-section" target="_self" aria-expanded="false">Contato</a>
-                        </li>
-                        <!-- futuro blog -->
+                        <!-- blog -->
                         <!--<li class="nav-item">
                             <a href="" target="_blank" class="nav-link" aria-haspopup="true" aria-expanded="false">Blog</a>
                         </li>-->
-                        <!-- end futuro blog -->
                       </ul>
                     </div>
                   </nav>
@@ -205,20 +197,14 @@
       <!-- end copy header -->
       
       <!-- banner start -->
-      <!-- ================ -->
       <div class="banner clearfix">
-
         <!-- slideshow start -->
-        <!-- ================ -->
         <div class="slideshow">
-
           <!-- slider revolution start -->
-          <!-- ================ -->
           <div class="slider-revolution-5-container">
             <div id="slider-banner-fullwidth" class="slider-banner-fullwidth rev_slider" data-version="5.0">
               <ul class="slides">
                 <!-- slide 1 start -->
-                <!-- ================ -->
                 <li class="text-center" data-transition="fade" data-slotamount="default" data-masterspeed="default" data-title="Máquinas e Sistemas">
                 <!-- main image -->
                 <img src="images/bg-slider-3.png" alt="slidebg2" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">          
@@ -271,12 +257,9 @@
                 <!-- slide 1 end -->
                 
                 <!-- slide 2 start -->
-                <!-- ================ -->
                 <li class="text-center" data-transition="fade" data-slotamount="default" data-masterspeed="default" data-title="Máquinas Inteligentes">
-                  
                 <!-- main image -->
                 <img src="images/bg-slider-1.png" alt="slidebg2" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
-                  
                 <!-- Transparent Background -->
                 <div class="tp-caption dark-translucent-bg"
                   data-x="center"
@@ -329,7 +312,6 @@
                 <!-- slide 2 end -->
 
                 <!-- slide 3 start -->
-                <!-- ================ -->
                 <li class="text-center" data-transition="fade" data-slotamount="default" data-masterspeed="default" data-title="Análises em Tempo Real">
 
                 <!-- main image -->
@@ -385,8 +367,6 @@
                 </div>
                 </li>
                 <!-- slide 3 end -->
-
-
               </ul>
               <div class="tp-bannertimer"></div>
             </div>
@@ -399,10 +379,9 @@
 
       <div id="page-start"></div>
 
-      <section id="about-section" class="main-container">
+      <section class="main-container">
         <div class="container">
           <div class="row">
-            
             <div class="col-lg-6 text-justify mb-30">
               <h3 class="page-title title-about">Sobre a MVisia</h3>
               <p>A MVisia desenvolve <strong>máquinas e sistemas baseados em visão computacional e inteligência artificial</strong> para determinar o índice de qualidade de produtos agrícolas.</p>
@@ -410,20 +389,18 @@
               <p>Trazemos <strong>eficiência, redução de custos e aumento de qualidade</strong> para sistemas de produção da <strong>agroindústria</strong>, utilizando <strong>visão computacional e inteligência artificial.</strong></p>
               <a class="btn radius-2 btn-transparent btn-hvr btn-animated btn-bordered-green" href="page-about.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
             </div>
-
             <div class="col-lg-6">
               <div class="rounded text-center special-container">
                 <a target="_blank" href="https://www.youtube.com/user/MVisiaBrasil"><img class="image-alone" src="images/about-bg-image2.png" alt="mvisia-youtube-channel"></a>
               </div>
             </div>
-
           </div>
         </div>
       </section>
       <!-- section end -->
 
-      <!-- section start -->     
-      <section id="technology-section" class="dark-translucent-bg tech pv-55 clearfix" style="background-image:url(images/tech-bg-image-4.png)">
+      <!-- section technology start -->     
+      <section class="dark-translucent-bg tech pv-55 clearfix" style="background-image:url(images/tech-bg-image-4.png)">
         <div class="container">
           <div class="row row-eq-height">
             <div class="main col-md-12">
@@ -464,124 +441,116 @@
           </div>
         </div>
       </section>
-      <!-- section end -->  
+      <!-- section technology end -->
 
-      <!-- section start -->
-      <!-- ================ -->
-      <div class="section">
+      <!-- section cases start -->
+      <div class="section mt-30">
+        <div class="container pv-30">
+          <div class="row"> 
+            <div class="main col-md-12">
+            <h2 class="page-title text-center">Cases de Sucesso</h2>
+            <div class="separator"></div>
+              <div class="row pv-30">
+                <!-- tomate -->
+                <div class="col-sm-3">
+                  <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                    <div class="overlay-container border-clear">
+                      <img class="img-container" src="images/case-1.png" alt="">
+                      <div class="overlay-to-top">
+                        <p class="small margin-clear">Velocidade de 3600 mudas por hora</p>
+                      </div>
+                    </div>
+                    <div class="body">
+                      <h3 class="card-title text-white">Tomate</h3>
+                      <div class="separator"></div>
+                      <p>Calibradora eletrônica de<br> tomates miúdos</p>
+                      <a class="btn btn-transparent btn-animated btn-bordered-white" href="page-case-calibradora.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- uva -->
+                <div class="col-sm-3">
+                  <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+                    <div class="overlay-container border-clear">
+                      <img class="img-container" src="images/case-2.png" alt="">
+                      <div class="overlay-to-top">
+                        <p class="small margin-clear">Velocidade de 3600 mudas por hora</p>
+                      </div>
+                    </div>
+                    <div class="body">
+                      <h3 class="card-title text-white">Uva</h3>
+                      <div class="separator"></div>
+                      <p>Sistema automático de<br> qualificação de uvas</p>
+                      <a class="btn btn-transparent btn-animated btn-bordered-white" href="page-case-sistema-qualificacao-uva.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- eucalipto -->
+                <div class="col-sm-3">
+                  <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
+                    <div class="overlay-container border-clear">
+                        <img class="img-container" src="images/case-3.png" alt="">
+                      <div class="overlay-to-top">
+                        <p class="small margin-clear">Velocidade de 3600 mudas por hora</p>
+                      </div>
+                    </div>
+                    <div class="body">
+                      <h3 class="card-title text-white">Eucalipto</h3>
+                      <div class="separator"></div>
+                      <p>Seletora automática de<br> mudas florestais</p>
+                      <a class="btn btn-transparent btn-animated btn-bordered-white" href="page-case-seletora-mudas-eucalipto.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!--flores -->
+                <div class="col-sm-3">
+                  <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="400">
+                    <div class="overlay-container border-clear">
+                        <img class="img-container" src="images/case-4.png" alt="">
+                      <div class="overlay-to-top">
+                        <p class="small margin-clear">Velocidade de 3600 mudas por hora</p>
+                      </div>
+                    </div>
+                    <div class="body">
+                      <h3 class="card-title text-white">Flores</h3>
+                      <div class="separator"></div>
+                      <p>Seletora automática de<br> mudas de flores</p>
+                      <a class="btn btn-transparent btn-animated btn-bordered-white" href="page-case-seletora-mudas-flores.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <!-- section cases end -->
 
-      <div class="container pv-30">
-      <div class="row">
-        
-      <!-- main start -->
-      <!-- ================ -->
-      <div id="case-section" class="main col-md-12">
-      
-      <h2 class="page-title text-center">Cases de Sucesso</h2>
-      <div class="separator"></div>
-      
-      <div class="row pv-30">
-        <div class="col-sm-3">
-          <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-            <div class="overlay-container border-clear">
-              <img class="img-container" src="images/case-1.png" alt="">
-              <div class="overlay-to-top">
-                <p class="small margin-clear">Velocidade de 3600 mudas por hora</p>
-              </div>
-            </div>
-            <div class="body">
-              <h3 class="card-title text-white">Tomate</h3>
-              <div class="separator"></div>
-              <p>Calibradora eletrônica de<br> tomates miúdos</p>
-              <a class="btn btn-transparent btn-animated btn-bordered-white" href="page-case-1.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
-            <div class="overlay-container border-clear">
-              <img class="img-container" src="images/case-2.png" alt="">
-              <div class="overlay-to-top">
-                <p class="small margin-clear">Velocidade de 3600 mudas por hora</p>
-              </div>
-            </div>
-            <div class="body">
-              <h3 class="card-title text-white">Uva</h3>
-              <div class="separator"></div>
-              <p>Sistema automático de<br> qualificação de uvas</p>
-              <a class="btn btn-transparent btn-animated btn-bordered-white" href="page-case-2.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
-            <div class="overlay-container border-clear">
-                <img class="img-container" src="images/case-3.png" alt="">
-              <div class="overlay-to-top">
-                <p class="small margin-clear">Velocidade de 3600 mudas por hora</p>
-              </div>
-            </div>
-            <div class="body">
-              <h3 class="card-title text-white">Eucalipto</h3>
-              <div class="separator"></div>
-              <p>Seletora automática de<br> mudas florestais</p>
-              <a class="btn btn-transparent btn-animated btn-bordered-white" href="page-case-3.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="image-box style-2 mb-20 bordered dark-bg text-center" data-animation-effect="fadeInDownSmall" data-effect-delay="400">
-            <div class="overlay-container border-clear">
-                <img class="img-container" src="images/case-4.png" alt="">
-              <div class="overlay-to-top">
-                <p class="small margin-clear">Velocidade de 3600 mudas por hora</p>
-              </div>
-            </div>
-            <div class="body">
-              <h3 class="card-title text-white">Flores</h3>
-              <div class="separator"></div>
-              <p>Seletora automática de<br> mudas de flores</p>
-              <a class="btn btn-transparent btn-animated btn-bordered-white" href="page-case-4.html">Saiba mais<i class="fa fa-angle-double-right"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    
-      </div>
-      </div>
-      </div>  
-    </div>
-      <!-- section end -->
-
-      <!-- section start -->
-      <!-- ================ -->
+      <!-- section banner call-to-action start -->
       <section class="section dark-bg clearfix">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
               <div class="call-to-action">
-
                 <div class="row">
                   <div class="col-md-12 text-center">
                     <ul class="list-inline banner">
-                      <li class="list-inline-item">Realizamos projetos sob medida para o seu negócio. Entre em contato:</li>
-                      <li class="list-inline-item"><i class="text-default fa fa-phone pl-10 pr-1 bigger"></i>(+55) (11) 4302-5902</li>
-                      <li class="list-inline-item"><i class="text-default fa fa-envelope-o pl-10 pr-1 bigger"></i>contato@mvisia.com.br</li>
-                      <li class="list-inline-item"><i class="text-default fa fa-whatsapp pl-10 pr-1 bigger"></i>(+55) (11) 98134-9727</li>
+                      <li class="list-inline-item mt-10 mb-10">Realizamos projetos sob medida para o seu negócio. Entre em contato:</li>
+                      <li class="list-inline-item mt-10 mb-10"><i class="text-default fa fa-phone pl-10 pr-1 bigger"></i>(+55) (11) 4302-5902</li>
+                      <li class="list-inline-item mt-10 mb-10"><i class="text-default fa fa-envelope-o pl-10 pr-1 bigger"></i>contato@mvisia.com.br</li>
+                      <li class="list-inline-item mt-10 mb-10"><i class="text-default fa fa-whatsapp pl-10 pr-1 bigger"></i>(+55) (11) 98134-9727</li>
                     </ul>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- section end -->
+      <!-- section banner call-to-action end -->
 
-      <!-- section start -->
-      <!-- ================ -->
-      <section id="benefit-section" class="dark-translucent-bg pv-30" style="background-image:url(images/benefits-bg-image4.png);">
+      <!-- section benefits start -->
+      <section class="dark-translucent-bg pv-30" style="background-image:url(images/benefits-bg-image4.png);">
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-md-8">
@@ -607,7 +576,6 @@
               </div>
             </div>
           </div>
-
           <div class="row">
             <div class="col-md-6">
               <div class="feature-box-2 object-non-visible mb-20 ml-150 mt-60" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
@@ -626,7 +594,6 @@
               </div>
             </div>
           </div>
-
           <div class="row">
             <div class="col-md-6">
               <div class="feature-box-2 object-non-visible mb-20 ml-150 mt-60" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
@@ -647,11 +614,10 @@
           </div>
         </div>
       </section>
-      <!-- section end -->
+      <!-- section benefits end -->
 
-      <!-- section start -->
-      <!-- ================ -->
-      <div id="client-section" class="section">
+      <!-- section clients start -->
+      <div class="section mt-30">
         <div class="container pv-30">
           <h2 class="page-title text-center">Clientes</h2>
           <div class="separator"></div>
@@ -674,7 +640,9 @@
               </div>
             </div>
           </div>
-          <!-- clients end -->
+          <!-- section clients end -->
+
+          <!-- section partners start -->
           <h2 class="page-title text-center">Parceiros</h2>
           <div class="separator"></div>
           <div class="clients-container">
@@ -697,185 +665,171 @@
             </div>
           </div>
         </div>
-      </section>
-      <!-- section end -->
+      </div>
+      <!-- section partners end -->
 
-      <!-- section start -->
-      <!-- ================ -->
-      <section class="section dark-bg clearfix">
+      <!-- section brazilian start -->
+      <section class="section dark-bg clearfix text-center">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
               <div class="call-to-action">
-
                   <div class="row">
                     <div class="col-md-4">
                       <div class="feature-box-2 object-non-visible mb-20 mt-30" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-                        <span class="icon default-bg small circle icon-benefit"><img class="icon-circle" src="images/icon-benefit-7.svg"></span>
+                        <span class="icon default-bg small circle icon-benefit ml-25"><img class="icon-circle" src="images/icon-benefit-7.svg"></span>
                         <div class="body">
                           <h3 class="card-title ml-25">A MVisia é 100% brasileira</h3>
                         </div>
                       </div>
                     </div>
-
                     <div class="col-md-4">
                       <div class="feature-box-2 object-non-visible mb-20 mt-30" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-                        <span class="icon default-bg small circle icon-benefit"><img class="icon-circle" src="images/icon-benefit-1.svg"></span>
+                        <span class="icon default-bg small circle icon-benefit ml-25"><img class="icon-circle" src="images/icon-benefit-1.svg"></span>
                         <div class="body">
                           <h3 class="card-title ml-25">Sem custos de importação</h3>
                         </div>
                       </div>
                     </div>
-
                     <div class="col-md-4">
                       <div class="feature-box-2 object-non-visible mb-20 mt-30" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-                        <span class="icon default-bg small circle icon-benefit"><img class="icon-circle" src="images/icon-benefit-6.svg"></span>
+                        <span class="icon default-bg small circle icon-benefit ml-25"><img class="icon-circle" src="images/icon-benefit-6.svg"></span>
                         <div class="body">
                           <h3 class="card-title ml-25">Assistência técnica capacitada</h3>
                         </div>
                       </div>
                     </div>
-
                   </div>
-
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- section end -->
+      <!-- section brazilian end -->
 
-      <!-- section na mídia start -->     
-      <div id="media-section" class="dark-translucent-bg pv-45 clearfix" style="background-image:url(images/tech-bg-image-4.png)">
+      <!-- section media start -->     
+      <div class="dark-translucent-bg pv-45 clearfix" style="background-image:url(images/tech-bg-image-4.png)">
         <div class="container">
             <div class="main">
               <h2 class="page-title text-white text-center">Na Mídia</h2>
               <div class="separator"></div>
                 <div class="row">
-
                   <div class="owl-carousel content-slider-with-controls">
-                    
                     <!-- News #1 -->
                     <div class="overlay-visible">
                       <div class="row container">
                         <div class="col-md-4">
                           <div class="pv-30 phl-40 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-                            <img class="media-logo" src="images/media-1.png">
+                            <a target="_blank" href="https://viewer.aemmobile.adobe.com/index.html#project/69eb211c-a1d3-4b60-a011-6bc2e481431f/view/edicao_380_junho_2017/article/globorural_-dj-de43b365-d42c-49f1-87e2-90d56ec4419d">
+                              <img class="media-logo" src="images/media-1.png">
+                            </a>
                           </div>
                         </div>
-                        <div class="col-md-8 pv-30 phr-40">
+                        <div class="col-md-8 pv-30">
                           <h3 class="text-left text-white news-title">Limpeza eficiente, sem água</h3>
-                          <p class="text-left news-body">Uma máquina compacta, que não usa água, pode ajudar produtores de frutas e hortaliças a ter mais lucros na lavoura. O equipamento, que é móvel, foi criado por cientistas da Embrapa Instrumentação, de São Carlos (SP), e licenciado para a empresa MVisia. De acordo com Marcos David Ferreira, pesquisador que coordenou a criação do equipamento, ela irá ajudar os pequenos produtores. “As classificadoras compactas agregam valor ao produto, com classificação mais uniforme, redução de tempo para chegar ao consumidor e menor incidência de danos físicos, melhorias que podem... <a href="https://viewer.aemmobile.adobe.com/index.html#project/69eb211c-a1d3-4b60-a011-6bc2e481431f/view/edicao_380_junho_2017/article/globorural_-dj-de43b365-d42c-49f1-87e2-90d56ec4419d">Ler matéria completa</a></p>
+                          <p class="text-left news-body">Uma máquina compacta, que não usa água, pode ajudar produtores de frutas e hortaliças a ter mais lucros na lavoura. O equipamento, que é móvel, foi criado por cientistas da Embrapa Instrumentação, de São Carlos (SP), e licenciado para a empresa MVisia. De acordo com Marcos David Ferreira, pesquisador que coordenou a criação do equipamento, ela irá ajudar os pequenos produtores. “As classificadoras compactas agregam valor ao produto, com classificação mais uniforme, redução de tempo para chegar ao consumidor e menor incidência de danos físicos, melhorias que podem... <a target="_blank" href="https://viewer.aemmobile.adobe.com/index.html#project/69eb211c-a1d3-4b60-a011-6bc2e481431f/view/edicao_380_junho_2017/article/globorural_-dj-de43b365-d42c-49f1-87e2-90d56ec4419d">Ler matéria completa</a></p>
                         </div>
                       </div>
                     </div>
-
                     <!-- News #2 -->
                     <div class="overlay-visible">
                       <div class="row container">
                         <div class="col-md-4">
                           <div class="pv-30 phl-40 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-                            <img class="media-logo" src="images/media-2.png">
+                            <a target="_blank" href="https://epoca.globo.com/vida/experiencias-digitais/noticia/2016/01/campus-party-nova-juventude-e-o-fim-da-maior-festa-nerd-do-brasil.html">
+                              <img class="media-logo" src="images/media-2.png">
+                            </a>
                           </div>
                         </div>
-                        <div class="col-md-8 pv-30 phr-40">
+                        <div class="col-md-8 pv-30">
                           <h3 class="text-left text-white news-title">Campus Party: a nova juventude e o "fim" da maior festa nerd do Brasil</h3>
-                          <p class="text-left news-body">Há gente também que foi à Campus Party para fazer negócio. Com um corte de cabelo batido, óculos discretos e fala séria, o engenheiro recém-formado Fernando Lopes seria o típico nerd da minha geração. Na dele, Fernando faz parte da turma dos empreendedores, tão populares quanto vocalistas de bandas de colégio. Junto a dois amigos, Lopes transformou o seu trabalho de conclusão de curso num negócio. Desenvolveu uma máquina que usa softwares e sensores para selecionar mudas de eucaliptos no padrão ideal para o plantio. Esse processo hoje é feito manualmente... <a href="https://epoca.globo.com/vida/experiencias-digitais/noticia/2016/01/campus-party-nova-juventude-e-o-fim-da-maior-festa-nerd-do-brasil.html">Ler matéria completa</a></p>
+                          <p class="text-left news-body">Há gente também que foi à Campus Party para fazer negócio. Com um corte de cabelo batido, óculos discretos e fala séria, o engenheiro recém-formado Fernando Lopes seria o típico nerd da minha geração. Na dele, Fernando faz parte da turma dos empreendedores, tão populares quanto vocalistas de bandas de colégio. Junto a dois amigos, Lopes transformou o seu trabalho de conclusão de curso num negócio. Desenvolveu uma máquina que usa softwares e sensores para selecionar mudas de eucaliptos no padrão ideal para o plantio. Esse processo hoje é feito manualmente... <a target="_blank" href="https://epoca.globo.com/vida/experiencias-digitais/noticia/2016/01/campus-party-nova-juventude-e-o-fim-da-maior-festa-nerd-do-brasil.html">Ler matéria completa</a></p>
                         </div>
                       </div>
                     </div>
-
                     <!-- News #3 -->
                     <div class="overlay-visible">
                       <div class="row container">
                         <div class="col-md-4">
                           <div class="pv-30 phl-40 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-                            <img class="media-logo" src="images/media-5.png">
+                            <a target="_blank" href="http://www.fapesp.br/11441">
+                              <img class="media-logo" src="images/media-5.png">
+                            </a>
                           </div>
                         </div>
-                        <div class="col-md-8 pv-30 phr-40">
+                        <div class="col-md-8 pv-30">
                           <h3 class="text-left text-white news-title">Propostas são selecionadas em chamada para o setor agropecuário</h3>
-                          <p class="text-left news-body">A FAPESP anuncia o resultado da chamada de propostas lançada para o apoio ao desenvolvimento de aplicativos com a finalidade de inovar procedimentos e aumentar a produtividade e a eficiência no setor agropecuário. A seleção dá continuidade à colaboração entre a FAPESP e a Financiadora de Estudos e Projetos (Finep) e apoiará, por meio da concessão de recursos do PAPPE do MCTI/Finep/FNDCT e de recursos orçamentários da FAPESP, projetos de pesquisas de empresas paulistas. Os desafios e temas do edital foram propostos pela Secretaria de Agricultura e Abastecimento... <a href="http://www.fapesp.br/11441">Ler matéria completa</a></p>
+                          <p class="text-left news-body">A FAPESP anuncia o resultado da chamada de propostas lançada para o apoio ao desenvolvimento de aplicativos com a finalidade de inovar procedimentos e aumentar a produtividade e a eficiência no setor agropecuário. A seleção dá continuidade à colaboração entre a FAPESP e a Financiadora de Estudos e Projetos (Finep) e apoiará, por meio da concessão de recursos do PAPPE do MCTI/Finep/FNDCT e de recursos orçamentários da FAPESP, projetos de pesquisas de empresas paulistas. Os desafios e temas do edital foram propostos pela Secretaria de Agricultura e Abastecimento... <a target="_blank" href="http://www.fapesp.br/11441">Ler matéria completa</a></p>
                         </div>
                       </div>
                     </div>
-                    
                     <!-- News #4 -->
                     <div class="overlay-visible">
                       <div class="row container">
                         <div class="col-md-4">
                           <div class="pv-30 phl-40 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-                            <img class="media-logo" src="images/media-5.png">
+                            <a target="_blank" href="http://pesquisaparainovacao.fapesp.br/mvisia_adapta_produto_para_conquistar_diferentes_mercados/49">
+                              <img class="media-logo" src="images/media-5.png">
+                            </a>
                           </div>
                         </div>
-                        <div class="col-md-8 pv-30 phr-40">
+                        <div class="col-md-8 pv-30">
                           <h3 class="text-left text-white news-title">MVisia adapta produto para conquistar diferentes mercados</h3>
-                          <p class="text-left news-body">Nem sempre a inovação idealizada pelo empreendedor é a que o mercado precisa. Ouvir o mercado para detectar suas necessidades ajuda a definir o foco do empreendimento e norteia a busca por soluções inovadoras. Foi assim com a MVisia, que concluiu o período de incubação no Centro de Inovação, Empreendedorismo e Tecnologia (Cietec), em São Paulo, em meados de 2016. Quando foi criada, em 2012, a ideia inicial de seus sócios-fundadores era oferecer automação sem fio para controle de ambiente em estufas agrícolas. Depois de algumas visitas em campo... <a href="http://pesquisaparainovacao.fapesp.br/mvisia_adapta_produto_para_conquistar_diferentes_mercados/49">Ler matéria completa</a></p>
+                          <p class="text-left news-body">Nem sempre a inovação idealizada pelo empreendedor é a que o mercado precisa. Ouvir o mercado para detectar suas necessidades ajuda a definir o foco do empreendimento e norteia a busca por soluções inovadoras. Foi assim com a MVisia, que concluiu o período de incubação no Centro de Inovação, Empreendedorismo e Tecnologia (Cietec), em São Paulo, em meados de 2016. Quando foi criada, em 2012, a ideia inicial de seus sócios-fundadores era oferecer automação sem fio para controle de ambiente em estufas agrícolas. Depois de algumas visitas em campo... <a target="_blank" href="http://pesquisaparainovacao.fapesp.br/mvisia_adapta_produto_para_conquistar_diferentes_mercados/49">Ler matéria completa</a></p>
                         </div>
                       </div>
                     </div>
-
                     <!-- News #5 -->
                     <div class="overlay-visible">
                       <div class="row container">
                         <div class="col-md-4">
                           <div class="pv-30 phl-40 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-                            <img class="media-logo" src="images/media-1.svg">
+                            <a target="_blank" href="https://www.santanderuniversidades.com.br/embaixadores/paginas/fernando-antonio-torres-velloso-da-silva-neto.aspx">
+                              <img class="media-logo" src="images/media-1.svg">
+                            </a>
                           </div>
                         </div>
-                        <div class="col-md-8 pv-30 phr-40">
+                        <div class="col-md-8 pv-30">
                           <h3 class="text-left text-white news-title">Fernando Antonio Torres Velloso da Silva Neto - USP</h3>
-                          <p class="text-left news-body">O Brasil é o maior produtor de eucalipto do mundo. Mesmo assim, esbarra em uma dificuldade: a seleção das mudas de eucalipto para plantio. Para melhorar a eficiência dessa etapa da produção, o aluno de Engenharia Mecatrônica da Universidade de São Paulo (USP), Fernando Antonio Torres Velloso da Silva Neto, junto aos colegas Fernando Lopes e Henrique Oliveira, criou uma máquina que automatiza o processo de determinação do índice de qualidade das mudas, a Seletora de mudas de eucalipto, projeto vencedor do Prêmio Santander Empreendedorismo 2015... <a href="https://www.santanderuniversidades.com.br/embaixadores/paginas/fernando-antonio-torres-velloso-da-silva-neto.aspx">Ler matéria completa</a></p>
+                          <p class="text-left news-body">O Brasil é o maior produtor de eucalipto do mundo. Mesmo assim, esbarra em uma dificuldade: a seleção das mudas de eucalipto para plantio. Para melhorar a eficiência dessa etapa da produção, o aluno de Engenharia Mecatrônica da Universidade de São Paulo (USP), Fernando Antonio Torres Velloso da Silva Neto, junto aos colegas Fernando Lopes e Henrique Oliveira, criou uma máquina que automatiza o processo de determinação do índice de qualidade das mudas, a Seletora de mudas de eucalipto, projeto vencedor do Prêmio Santander Empreendedorismo 2015... <a target="_blank" href="https://www.santanderuniversidades.com.br/embaixadores/paginas/fernando-antonio-torres-velloso-da-silva-neto.aspx">Ler matéria completa</a></p>
                         </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
-
                 <div class="row mt-60 mb-20">
                   <a class="btn btn-transparent btn-animated btn-bordered-white m-auto mt-20" href="page-media.html">Ver todas<i class="fa fa-angle-double-right"></i></a>
                 </div>
-
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
-      <!-- section na mídia end -->
+      <!-- section media end -->
 
       <!-- section contact start -->
-      <div>
-        
-      <div id="contact-section" class="container pv-30 mb-60">
-      <div class="row">
-        
-      <!-- main start -->
-      <div class="main col-md-12">  
-        <h2 class="page-title text-center">Contato</strong></h2>
-        <div class="separator"></div>
-
+      <div class="container pv-30 mt-30 mb-60">
         <div class="row">
-          <div class="col-md-12 text-center">
-            <ul class="list-inline mb-40">
-              <li class="list-inline-item"><i class="text-default fa fa-map-marker pr-1 bigger"></i>Av. Queiroz Filho, 1700 - Torre E, Sala 512</li>
-              <li class="list-inline-item"><i class="text-default fa fa-phone pl-10 pr-1 bigger"></i>(+55) (11) 4302-5902</li>
-              <li class="list-inline-item"><i class="text-default fa fa-envelope-o pl-10 pr-1 bigger"></i>contato@mvisia.com.br</li>
-              <li class="list-inline-item"><i class="text-default fa fa-whatsapp pl-10 pr-1 bigger"></i>(+55) (11) 98134-9727</li>
-            </ul>
+          <div class="main col-md-12">  
+            <h2 class="page-title text-center">Contato</strong></h2>
+            <div class="separator"></div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <ul class="list-inline mb-40">
+                  <li class="list-inline-item"><i class="text-default fa fa-map-marker pr-1 bigger"></i>Av. Queiroz Filho, 1700 - Torre E, Sala 512</li>
+                  <li class="list-inline-item"><i class="text-default fa fa-phone pl-10 pr-1 bigger"></i>(+55) (11) 4302-5902</li>
+                  <li class="list-inline-item"><i class="text-default fa fa-envelope-o pl-10 pr-1 bigger"></i>contato@mvisia.com.br</li>
+                  <li class="list-inline-item"><i class="text-default fa fa-whatsapp pl-10 pr-1 bigger"></i>(+55) (11) 98134-9727</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                  <div id="map-canvas"></div>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-md-12">
-              <div id="map-canvas"></div>
-          </div>
-        </div>
-        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29258.458831938984!2d-46.73309043644858!3d-23.557402355627367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce566d5b721269%3A0x2702355c13db856c!2sMVisia!5e0!3m2!1spt-BR!2sbr!4v1423598617879"></iframe>-->
-      </div>
-      </div>
       </div>  
       </section>
       <!-- section contact end -->

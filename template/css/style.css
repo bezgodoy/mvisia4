@@ -882,11 +882,6 @@ h5 + .separator {
   padding-right: 20px;
 }
 
-.phr-40 {
-  padding-left: 20px;
-  padding-right: 40px;
-}
-
 .pv-15 {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -963,6 +958,10 @@ h5 + .separator {
 .mlr-auto {
   margin-right: auto;
   margin-left: auto;
+}
+
+.ml-25 {
+  margin-left: 25px;
 }
 
 .margin-clear {
