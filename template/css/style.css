@@ -224,12 +224,6 @@ ul {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
-.transparent-header .sticky-wrapper {
-  position: absolute;
-  width: 100%;
-  left: 0;
-}
-
 .fixed-header-on.boxed .header.fixed {
   left: auto;
   -webkit-transition: left linear 0s !important;
