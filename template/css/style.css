@@ -1,4 +1,4 @@
-/* Elements
+/* Images ok
 ----------------------------------------------------------------------------- */
 img {
   display: block;
@@ -6,7 +6,7 @@ img {
   height: auto;
 }
 
-/* Lists
+/* Lists ok
 ---------------------------------- */
 ul {
   list-style-type: none;
@@ -32,7 +32,7 @@ ul {
   }
 }
 
-/* Layout
+/* Layout ok
 ----------------------------------------------------------------------------- */
 .page-wrapper {
   background-color: #ffffff;
@@ -64,22 +64,6 @@ ul {
 
 .dark .footer {
   background-color: #222222;
-}
-
-/*Transparent Header*/
-.transparent-header .header-top {
-  z-index: 103;
-  position: relative;
-}
-
-.transparent-header header.header.transparent-header-on {
-  z-index: 22;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.92);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-  border-top-color: #a0a0a0;
 }
 
 .header-first {
@@ -157,15 +141,12 @@ ul {
 ---------------------------------- */
 .light-gray-bg {
   background-color: #fafafa;
-  /* border-top: 1px solid #f3f3f3;
-  border-bottom: 1px solid #f3f3f3; */
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .dark-bg {
   background-color: #1e231e;
-  color: #cdcdcd;
 }
 
 /*Translucent Backgrounds*/
@@ -210,27 +191,12 @@ ul {
 }
 
 .dark-translucent-bg,
-.dark-translucent-bg h1,
-.dark-translucent-bg h2,
-.dark-translucent-bg h3,
-.dark-translucent-bg h4,
-.dark-translucent-bg h5,
-.dark-translucent-bg h6 {
+.dark-translucent-bg h2{
   color: #ffffff;
 }
 
 .dark-translucent-bg.tech, .dark-translucent-bg.tech h4 {
   color: #333333;
-}
-
-.dark-translucent-bg a:not(.btn) {
-  text-decoration: underline;
-  color: #ffffff;
-}
-
-.dark-translucent-bg a:not(.btn):hover {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 /* Fixed navigation
@@ -644,9 +610,10 @@ h5 + .separator {
   display: none !important;
 }
 
-/* 3 Sections
+/* Sections
 ----------------------------------------------------------------------------- */
-/*Header Top*/
+/* Header-top ok
+---------------------------------- */
 .header-top {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6);
@@ -660,12 +627,8 @@ h5 + .separator {
   }
 }
 
-/*Header*/
-.header.dark {
-  color: #cacaca;
-}
-
-/*Footer*/
+/* Footer ok
+---------------------------------- */
 .footer {
   font-size: 14px;
   line-height: 1.5;
@@ -677,22 +640,9 @@ h5 + .separator {
   margin-bottom: 10px;
 }
 
-/* 4 Pages
+/* Components
 ----------------------------------------------------------------------------- */
-/* About Us Pages
----------------------------------- */
-/* Small devices (tablets, phones less than 767px) */
-@media (max-width: 767px) {
-  .team-member {
-    max-width: 480px;
-    margin: 20px auto 20px !important;
-  }
-}
-
-
-/* 5 Components
------------------------------------------------------------------------------ */
-/* Buttons
+/* Buttons ok
 ---------------------------------- */
 .btn {
   padding: 7px 20px;
@@ -705,7 +655,6 @@ h5 + .separator {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 
 /*White Button*/
 .btn-white {
@@ -1289,16 +1238,14 @@ h5 + .separator {
   }
 }
 
-/*Video Backgrounds
+/*Video Backgrounds ok
 ---------------------------------- */
-.video-background,
-.video-background-banner {
+.video-background {
   position: relative;
   overflow: hidden;
 }
 
-.video-background video,
-.video-background-banner video {
+.video-background video {
   min-width: 100%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -1313,12 +1260,10 @@ h5 + .separator {
   position: absolute;
 }
 
-.video.videoautoplay .video-background video,
-.video.videoautoplay .video-background-banner video {
+.video.videoautoplay .video-background video {
   display: block;
 }
 
-.video-background-banner .video-background-poster,
 .video-background .video-background-poster {
   position: absolute;
   top: 0;
@@ -1344,31 +1289,8 @@ h5 + .separator {
   overflow: visible;
 }
 
-/* Audio wrapper
----------------------------------- */
-.audio-wrapper iframe {
-  width: 100%;
-  border: none;
-  margin-bottom: 20px;
-}
 
-/*Carousel
----------------------------------- */
-.top.carousel-indicators {
-  bottom: auto;
-  top: 10px;
-}
-
-.bottom.carousel-indicators {
-  bottom: 10px;
-}
-
-.shadow .carousel-indicators {
-  position: absolute;
-  z-index: 4;
-}
-
-/*Pace (Page loader)
+/*Pace (Page loader) ok
 ---------------------------------- */
 /*loader 1*/
 .page-loader-1 .page-wrapper {
@@ -1697,7 +1619,7 @@ h5 + .separator {
 
 /* 7 Blocks/Widgets
 ----------------------------------------------------------------------------- */
-/* Logo, Site Slogan
+/* Logo, Site Slogan ok
 ---------------------------------- */
 #logo img:hover,
 #logo-mobile img:hover {
@@ -1720,14 +1642,6 @@ h5 + .separator {
 #logo-footer {
   margin-bottom: 20px;
   width: 120px;
-}
-
-.offcanvas .logo {
-  margin: 20px 0 10px;
-}
-
-.offcanvas .logo img {
-  margin: 0 auto;
 }
 
 
@@ -1848,11 +1762,6 @@ h5 + .separator {
   margin-top: 2px;
 }
 
-.full-page .header .social-links {
-  margin-top: 15px;
-  margin-bottom: 0;
-}
-
 .footer-content .social-links li {
   margin: 0 5px 5px 0;
 }
@@ -1877,23 +1786,6 @@ h5 + .separator {
 
 .social-links.small li a i {
   line-height: 29px;
-}
-
-.social-links.large li a {
-  width: 60px;
-  height: 60px;
-  font-size: 24px;
-}
-
-.social-links.large li a i {
-  line-height: 60px;
-}
-
-.social-links.square li a,
-.square {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
 }
 
 .social-links.circle li a {
@@ -1955,10 +1847,6 @@ h5 + .separator {
   width: 15px;
 }
 
-.header-top .social-links .dropdown.show > button > i:before {
-  content: "\f00d";
-}
-
 .social-links .dropdown-menu {
   z-index: 103;
   padding: 5px;
@@ -1970,6 +1858,11 @@ h5 + .separator {
   background-color: #f2f2f2;
   border: 1px solid #D0D0D0;
   border-top: none;
+}
+
+.social-links .btn-group .dropdown-menu {
+  background-color: #303631;
+  border: 1px solid #222222;
 }
 
 .social-links .dropdown-menu li a,
@@ -1987,10 +1880,6 @@ h5 + .separator {
   color: #ffffff;
 }
 
-.dark.header-top .dropdown-menu {
-  border-top: none;
-}
-
 /*Button Groups*/
 .header-top .btn-group {
   margin: 3px 0 2px;
@@ -2002,7 +1891,7 @@ h5 + .separator {
 }
 
 
-/* Clients
+/* Clients ok
 ---------------------------------- */
 .clients-container {
   text-align: center;
@@ -2042,7 +1931,7 @@ h5 + .separator {
 }
 
 
-/* Google maps
+/* Google maps ok
 ---------------------------------- */
 #map-canvas {
   height: 450px;
@@ -2073,7 +1962,7 @@ h5 + .separator {
 }
 
 
-/* Scroll to top
+/* Scroll to top ok
 ---------------------------------- */
 .scrollToTop {
   color: #ffffff;
