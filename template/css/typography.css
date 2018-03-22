@@ -182,17 +182,17 @@ h6 {
   }
 }
 
+.mobile-caption {
+  font-size: 28px !important;
+  line-height: 35px !important;
+  font-weight: 300;
+}
+
 /* Small devices (tablets, phones less than 767px) */
 @media screen and (max-width: 767px) {
   h1.extra-large {
     font-size: 60px;
     font-weight: 700;
-  }
-
-  .mobile-caption {
-    font-size: 28px !important;
-    line-height: 35px !important;
-    font-weight: 300;
   }
 }
 
