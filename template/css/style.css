@@ -147,6 +147,7 @@ ul {
 
 .dark-bg {
   background-color: #1e231e;
+  color: white;
 }
 
 /*Translucent Backgrounds*/
@@ -1557,6 +1558,10 @@ h5 + .separator {
   margin-right: 0;
 }
 
+.navbar-toggler:focus {
+  outline: none;
+}
+
 /* Small devices (tablets, phones less than 767px) */
 @media (max-width: 991px) {
   .header .navbar-nav {
@@ -1867,7 +1872,7 @@ h5 + .separator {
 }
 
 .social-links .dropdown-menu li a i {
-  padding-left: 0;
+  margin-left: -2px;
 }
 
 .social-links .dropdown-menu li a:hover i {

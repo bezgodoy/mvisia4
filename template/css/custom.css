@@ -110,6 +110,10 @@ h3.card-title {
     height: 35px;
 }
 
+.icon-small {
+    width: 45px; 
+}
+
 /* Intern Typography
 ---------------------------------- */
 h3.title-subsection {
