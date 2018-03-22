@@ -29,13 +29,16 @@
 /* Wrappers
 ---------------------------------- */
 .special-container {
-    margin: 0 30px 0 30px;
+    margin: 0 25px 0 25px;
 }
 
 .img-container {
-    border-radius: 3px;
+    border-radius: 3px 3px 0 0;
 }
 
+.video-case {
+    margin: 25px;
+}
 
 /* Index
 ---------------------------------- */
@@ -108,6 +111,14 @@ h3.card-title {
     margin-top: -15px;
     margin-left: 12px;
     height: 35px;
+}
+
+.icon-circle-benefits {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    margin-left: 17px;
+    height: 40px;
 }
 
 .icon-small {
