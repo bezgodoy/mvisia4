@@ -760,6 +760,7 @@ h5 + .separator {
   color: #ffffff;
   margin-left: 60px;
   margin-bottom: 25px;
+  font-weight: 400;
 }
 
 .feature-box-2 p {
