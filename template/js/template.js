@@ -1787,3 +1787,22 @@ if (jQuery(".btn-print").length>0) {
 		mywindow.close();
 	}
 }
+
+$('.gallery-slider').slick({
+	autoplay: true,
+	autoplaySpeed: 3000,
+	slidesToShow: 4,
+	slidesToScroll: 1,
+	infinite: true,
+	arrows: false,
+	responsive: [
+		{
+		  breakpoint: 480,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			infinite: true
+		  }
+		}
+	]
+  });

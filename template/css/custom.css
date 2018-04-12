@@ -40,6 +40,10 @@
     margin: 25px;
 }
 
+.clients-container {
+    overflow: hidden;
+}
+
 /* Index
 ---------------------------------- */
 .title-about {
@@ -142,6 +146,15 @@ h3.title-subsection {
 
 .text-left {
     text-align: left;
+}
+
+p.subtitle {
+    font-size: 1.0rem;
+    color: #606060;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 

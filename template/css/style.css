@@ -993,10 +993,6 @@ h5 + .separator {
   margin-top: 0;
 }
 
-.image-box .body p:last-child {
-  margin-bottom: 0;
-}
-
 /*Images and Overlays
 ---------------------------------- */
 .overlay-container {
@@ -1899,7 +1895,7 @@ h5 + .separator {
 }
 
 .clients {
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .clients .client-image {
@@ -1918,12 +1914,12 @@ h5 + .separator {
   display: inline-block;
 }
 
-.clients img {
+.clients img:hover {
   margin: 0px auto;
-  opacity: 0.2;
+  opacity: 0.7;
 }
 
-.clients img:hover {
+.clients img {
   opacity: 1;
   -webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out;
