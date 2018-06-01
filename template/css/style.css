@@ -2474,10 +2474,11 @@ h5 + .separator {
 }
 
 .tparrows.preview2 .tp-arr-titleholder {
-  color: #ffffff;
+  color: transparent;
   text-transform: none;
   font-weight: 300;
   font-family: "Raleway", sans-serif;
+  content: "";
 }
 
 /*Slider Revolution 5*/
@@ -2508,10 +2509,11 @@ h5 + .separator {
 }
 
 .hebe .tp-arr-titleholder {
+  color: transparent;
   text-transform: none;
   font-weight: 300;
   font-family: "Raleway", sans-serif;
-  padding-left: 70px;
+  content: "";
 }
 
 .hebe.tp-rightarrow .tp-arr-titleholder {

@@ -177,3 +177,31 @@ a:hover {
     font-size: 1.1rem;
     color: #2f2f2f;
 }
+
+.left.slick-arrow {
+    position: relative;
+    top: 125px;
+    z-index: 1000;
+    font-size: 30px;
+    text-align: left;
+}
+
+.right.slick-arrow {
+    position: relative;
+    top: -110px;
+    z-index: 1000;
+    font-size: 30px;
+    text-align: right;
+}
+
+/* Small devices (tablets, phones less than 767px) */
+@media (max-width: 767px) {
+    .left.slick-arrow {
+        top: 150px;
+    }
+    
+    .right.slick-arrow {
+        top: -150px;
+    }
+  }
+

@@ -1794,7 +1794,9 @@ $('.gallery-slider').slick({
 	slidesToShow: 4,
 	slidesToScroll: 1,
 	infinite: true,
-	arrows: false,
+	arrows: true,
+	prevArrow: '<div class="left"><span class="fa fa-angle-left"></span><span class="sr-only">Prev</span></div>',
+	nextArrow: '<div class="right"><span class="fa fa-angle-right"></span><span class="sr-only">Next</span></div>',
 	responsive: [
 		{
 		  breakpoint: 480,
